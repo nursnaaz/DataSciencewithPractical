@@ -1,0 +1,17 @@
+CLT simulator:
+https://onlinestatbook.com/stat_sim/sampling_dist/
+
+T-value:
+https://faculty.washington.edu/heagerty/Books/Biostatistics/TABLES/t-Tables/
+
+Z-table:
+http://www.z-table.com/
+
+Z-value for Confidence Interval:
+http://www.ltcconline.net/GREENL/courses/201/Estimation/smallConfLevelTable.htm
+
+F-table:
+http://www.socr.ucla.edu/Applets.dir/F_Table.html
+
+
+
