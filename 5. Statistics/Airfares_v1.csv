@@ -1,0 +1,639 @@
+Departure_CITY,Arrival_CITY,COUPON,VACATION,Departure_avg_INCOME,Arrival_avg_INCOME,Departure_avg_population,Arrival_avg_population,SLOT,GATE,DISTANCE,PAX,FARE
+Dallas/Fort Worth   TX,Amarillo            TX,1,No,28637,21112,3036732,205711,Free,Free,312,7864,64.11
+Atlanta             GA,Baltimore/Wash Intl MD,1.06,No,26993,29838,3532657,7145897,Free,Free,576,8820,174.47
+Boston              MA,Baltimore/Wash Intl MD,1.06,No,30124,29838,5787293,7145897,Free,Free,364,6452,207.76
+Chicago             IL,Baltimore/Wash Intl MD,1.06,No,29260,29838,7830332,7145897,Controlled,Free,612,25144,85.47
+Chicago             IL,Baltimore/Wash Intl MD,1.06,No,29260,29838,7830332,7145897,Free,Free,612,25144,85.47
+Cleveland           OH,Baltimore/Wash Intl MD,1.01,No,26046,29838,2230955,7145897,Free,Free,309,13386,56.76
+Dallas/Fort Worth   TX,Baltimore/Wash Intl MD,1.28,No,28637,29838,3036732,7145897,Free,Free,1220,4625,228
+Fort Lauderdale     FL,Baltimore/Wash Intl MD,1.15,Yes,26752,29838,1440377,7145897,Free,Free,921,5512,116.54
+Houston             TX,Baltimore/Wash Intl MD,1.33,No,27211,29838,3770125,7145897,Free,Free,1249,7811,172.63
+Kansas City         MO,Baltimore/Wash Intl MD,1.6,No,25450,29838,1694803,7145897,Free,Free,964,4657,114.76
+Las Vegas           NV,Baltimore/Wash Intl MD,1.57,Yes,24575,29838,1197234,7145897,Free,Free,2104,4489,158.2
+Los Angeles         CA,Baltimore/Wash Intl MD,1.5,No,24706,29838,9056076,7145897,Free,Free,2329,7349,228.99
+Nashville           TN,Baltimore/Wash Intl MD,1.12,No,25995,29838,1115048,7145897,Free,Free,587,5654,79.17
+New Orleans         LA,Baltimore/Wash Intl MD,1.29,No,22038,29838,1308499,7145897,Free,Free,992,3525,132.05
+New York/Newark     NY,Baltimore/Wash Intl MD,1,No,32991,29838,8621121,7145897,Controlled,Free,181,7171,117.23
+New York/Newark     NY,Baltimore/Wash Intl MD,1,No,32991,29838,8621121,7145897,Controlled,Free,181,7171,117.23
+New York/Newark     NY,Baltimore/Wash Intl MD,1,No,32991,29838,8621121,7145897,Free,Constrained,181,7171,117.23
+Orlando             FL,Baltimore/Wash Intl MD,1.13,Yes,22360,29838,1421287,7145897,Free,Free,788,11013,106.11
+Phoenix             AZ,Baltimore/Wash Intl MD,1.86,No,23025,29838,2753373,7145897,Free,Free,2001,4408,181.16
+Salt Lake City      UT,Baltimore/Wash Intl MD,1.93,No,21121,29838,1228816,7145897,Free,Free,1866,2767,157.5
+San Diego           CA,Baltimore/Wash Intl MD,1.87,No,23903,29838,2673620,7145897,Free,Free,2290,3170,200.2
+San Francisco       CA,Baltimore/Wash Intl MD,1.52,No,38813,29838,1653017,7145897,Free,Free,2454,6417,246.85
+St Louis            MO,Baltimore/Wash Intl MD,1.14,No,25824,29838,2549844,7145897,Free,Free,729,10264,99.7
+Tampa               FL,Baltimore/Wash Intl MD,1.13,Yes,23654,29838,2195215,7145897,Free,Free,846,7082,106.77
+Chicago             IL,Birmingham          AL,1.16,No,29260,23858,7830332,895414,Controlled,Free,576,4138,113.5
+Chicago             IL,Birmingham          AL,1.16,No,29260,23858,7830332,895414,Free,Free,576,4138,113.5
+Seattle/Tacoma      WA,Boise               ID,1.07,No,30916,23901,2230831,372606,Free,Free,403,5995,69.12
+Atlanta             GA,Boston              MA,1.25,No,26993,30124,3532657,5787293,Free,Free,939,14005,210
+New York/Newark     NY,Buffalo             NY,1.01,No,32991,23184,8621121,1173217,Controlled,Free,291,12432,134.3
+New York/Newark     NY,Buffalo             NY,1.01,No,32991,23184,8621121,1173217,Controlled,Free,291,12432,134.3
+New York/Newark     NY,Buffalo             NY,1.01,No,32991,23184,8621121,1173217,Free,Constrained,291,12432,134.3
+New York/Newark     NY,Charleston          SC,1.34,No,32991,18851,8621121,254153,Controlled,Free,637,6003,118.95
+New York/Newark     NY,Charleston          SC,1.34,No,32991,18851,8621121,254153,Controlled,Free,637,6003,118.95
+New York/Newark     NY,Charleston          SC,1.34,No,32991,18851,8621121,254153,Free,Constrained,637,6003,118.95
+Atlanta             GA,Charlotte           NC,1.01,No,26993,25237,3532657,1318892,Free,Constrained,227,7335,97.96
+Boston              MA,Charlotte           NC,1.25,No,30124,25237,5787293,1318892,Free,Constrained,722,3263,237.8
+Chicago             IL,Charlotte           NC,1.16,No,29260,25237,7830332,1318892,Controlled,Constrained,589,5153,234.15
+Chicago             IL,Charlotte           NC,1.16,No,29260,25237,7830332,1318892,Free,Constrained,589,5153,234.15
+Dallas/Fort Worth   TX,Charlotte           NC,1.14,No,28637,25237,3036732,1318892,Free,Constrained,940,4493,203.17
+New York/Newark     NY,Charlotte           NC,1.12,No,32991,25237,8621121,1318892,Controlled,Constrained,539,9305,250.73
+New York/Newark     NY,Charlotte           NC,1.12,No,32991,25237,8621121,1318892,Controlled,Constrained,539,9305,250.73
+New York/Newark     NY,Charlotte           NC,1.12,No,32991,25237,8621121,1318892,Free,Constrained,539,9305,250.73
+Atlanta             GA,Chicago             IL,1.04,No,26993,29260,3532657,7830332,Controlled,Free,595,30877,106.6
+Atlanta             GA,Chicago             IL,1.04,No,26993,29260,3532657,7830332,Free,Free,595,30877,106.6
+Austin              TX,Chicago             IL,1.25,No,23665,29260,1038660,7830332,Controlled,Free,974,4980,136.27
+Austin              TX,Chicago             IL,1.25,No,23665,29260,1038660,7830332,Free,Free,974,4980,136.27
+Boston              MA,Chicago             IL,1.15,No,30124,29260,5787293,7830332,Controlled,Free,854,20718,230.87
+Boston              MA,Chicago             IL,1.15,No,30124,29260,5787293,7830332,Free,Free,854,20718,230.87
+Cincinnati          OH,Chicago             IL,1.01,No,25059,29260,1595139,7830332,Controlled,Constrained,254,7069,180.56
+Cincinnati          OH,Chicago             IL,1.01,No,25059,29260,1595139,7830332,Free,Constrained,254,7069,180.56
+Atlanta             GA,Cincinnati          OH,1.16,No,26993,25059,3532657,1595139,Free,Constrained,371,3892,215.83
+Atlanta             GA,Cleveland           OH,1.12,No,26993,26046,3532657,2915745,Free,Free,561,4821,197.1
+Chicago             IL,Cleveland           OH,1.01,No,29260,26046,7830332,2915745,Controlled,Free,316,24405,69.1
+Chicago             IL,Cleveland           OH,1.01,No,29260,26046,7830332,2915745,Free,Free,316,24405,69.1
+Dallas/Fort Worth   TX,Colorado Springs    CO,1.06,No,28637,22263,3036732,472254,Free,Free,592,6098,91.83
+Houston             TX,Colorado Springs    CO,1.19,No,27211,22263,3770125,472254,Free,Free,817,4281,111.66
+Las Vegas           NV,Colorado Springs    CO,1.16,Yes,24575,22263,1197234,472254,Free,Free,602,8810,57.62
+Los Angeles         CA,Colorado Springs    CO,1.36,No,24706,22263,9056076,472254,Free,Free,833,5762,104.72
+New York/Newark     NY,Colorado Springs    CO,1.36,No,32991,22263,8621121,472254,Controlled,Free,1636,5185,154.74
+New York/Newark     NY,Colorado Springs    CO,1.36,No,32991,22263,8621121,472254,Controlled,Free,1636,5185,154.74
+New York/Newark     NY,Colorado Springs    CO,1.36,No,32991,22263,8621121,472254,Free,Constrained,1636,5185,154.74
+Phoenix             AZ,Colorado Springs    CO,1.09,No,23025,22263,2753373,472254,Free,Free,550,7599,77.98
+Washington          DC,Colorado Springs    CO,1.68,No,31981,22263,4549784,472254,Free,Free,1476,4945,157.2
+Washington          DC,Colorado Springs    CO,1.68,No,31981,22263,4549784,472254,Controlled,Free,1476,4945,157.2
+Atlanta             GA,Columbus            OH,1.13,No,26993,24502,3532657,1442203,Free,Free,445,6075,113.2
+Boston              MA,Columbus            OH,1.22,No,30124,24502,5787293,1442203,Free,Free,633,4758,143.59
+Chicago             IL,Columbus            OH,1.01,No,29260,24502,7830332,1442203,Controlled,Free,286,14516,75.07
+Chicago             IL,Columbus            OH,1.01,No,29260,24502,7830332,1442203,Free,Free,286,14516,75.07
+Albuquerque         NM,Dallas/Fort Worth   TX,1.02,No,22089,28637,668159,3036732,Free,Free,573,10941,84.46
+Atlanta             GA,Dallas/Fort Worth   TX,1.05,No,26993,28637,3532657,3036732,Free,Free,734,23075,113.99
+Austin              TX,Dallas/Fort Worth   TX,1,No,23665,28637,1038660,3036732,Free,Free,184,18843,67.17
+Boston              MA,Dallas/Fort Worth   TX,1.19,No,30124,28637,5787293,3036732,Free,Free,1559,8756,320.37
+Chicago             IL,Dallas/Fort Worth   TX,1.14,No,29260,28637,7830332,3036732,Controlled,Free,805,20264,244.5
+Chicago             IL,Dallas/Fort Worth   TX,1.14,No,29260,28637,7830332,3036732,Free,Free,805,20264,244.5
+Corpus Christi      TX,Dallas/Fort Worth   TX,1.02,No,18933,28637,382155,3036732,Free,Free,354,5391,78.62
+Atlanta             GA,Denver              CO,1.23,No,26993,29055,3532657,1862106,Free,Free,1200,7621,210.9
+Boston              MA,Denver              CO,1.35,No,30124,29055,5787293,1862106,Free,Free,1755,5820,311.46
+Chicago             IL,Denver              CO,1.08,No,29260,29055,7830332,1862106,Controlled,Free,902,16263,174.06
+Chicago             IL,Denver              CO,1.08,No,29260,29055,7830332,1862106,Free,Free,902,16263,174.06
+Dallas/Fort Worth   TX,Denver              CO,1.06,No,28637,29055,3036732,1862106,Free,Free,638,11298,155.81
+Atlanta             GA,Detroit             MI,1.05,No,26993,26506,3532657,4459144,Free,Constrained,600,12752,106.56
+Boston              MA,Detroit             MI,1.06,No,30124,26506,5787293,4459144,Free,Constrained,616,10358,110.42
+Chicago             IL,Detroit             MI,1,No,29260,26506,7830332,4459144,Controlled,Constrained,237,34113,74.28
+Chicago             IL,Detroit             MI,1,No,29260,26506,7830332,4459144,Free,Constrained,237,34113,74.28
+Dallas/Fort Worth   TX,Detroit             MI,1.22,No,28637,26506,3036732,4459144,Free,Constrained,1001,6401,245.28
+Denver              CO,Detroit             MI,1.21,No,29055,26506,1862106,4459144,Free,Constrained,1139,3851,256.48
+Dallas/Fort Worth   TX,El Paso             TX,1.02,No,28637,14600,3036732,677757,Free,Free,548,10989,84.23
+Atlanta             GA,Fort Lauderdale     FL,1.02,Yes,26993,26752,3532657,1440377,Free,Free,578,11425,105.1
+Boston              MA,Fort Lauderdale     FL,1.27,Yes,30124,26752,5787293,1440377,Free,Free,1229,10483,121.09
+Chicago             IL,Fort Lauderdale     FL,1.15,Yes,29260,26752,7830332,1440377,Controlled,Free,1168,10117,153.95
+Chicago             IL,Fort Lauderdale     FL,1.15,Yes,29260,26752,7830332,1440377,Free,Free,1168,10117,153.95
+Dallas/Fort Worth   TX,Fort Lauderdale     FL,1.16,Yes,28637,26752,3036732,1440377,Free,Free,1118,3402,207.84
+Detroit             MI,Fort Lauderdale     FL,1.17,Yes,26506,26752,4459144,1440377,Free,Constrained,1128,6103,113.39
+Boston              MA,Fort Meyers         FL,1.47,Yes,30124,26752,5787293,379566,Free,Free,1245,6390,126.62
+Chicago             IL,Fort Meyers         FL,1.2,Yes,29260,26752,7830332,379566,Controlled,Free,1108,7196,136.68
+Chicago             IL,Fort Meyers         FL,1.2,Yes,29260,26752,7830332,379566,Free,Free,1108,7196,136.68
+Detroit             MI,Fort Meyers         FL,1.13,Yes,26506,26752,4459144,379566,Free,Constrained,1088,7049,108.15
+New York/Newark     NY,Greensboro/High Pt  NC,1.07,No,32991,24348,8621121,111745,Controlled,Free,457,7574,180.85
+New York/Newark     NY,Greensboro/High Pt  NC,1.07,No,32991,24348,8621121,111745,Controlled,Free,457,7574,180.85
+New York/Newark     NY,Greensboro/High Pt  NC,1.07,No,32991,24348,8621121,111745,Free,Constrained,457,7574,180.85
+Atlanta             GA,Hartford            CT,1.34,No,26993,30268,3532657,1106780,Free,Free,854,5806,175.81
+Chicago             IL,Hartford            CT,1.13,No,29260,30268,7830332,1106780,Controlled,Free,779,6614,240.88
+Chicago             IL,Hartford            CT,1.13,No,29260,30268,7830332,1106780,Free,Free,779,6614,240.88
+Las Vegas           NV,Honolulu (Intl)     HI,1.56,Yes,24575,26681,1197234,873131,Free,Free,2764,6462,183.19
+Los Angeles         CA,Honolulu (Intl)     HI,1.03,Yes,24706,26681,9056076,873131,Free,Free,2555,32824,167.16
+San Francisco       CA,Honolulu (Intl)     HI,1.04,Yes,38813,26681,1653017,873131,Free,Free,2401,19055,177.09
+Seattle/Tacoma      WA,Honolulu (Intl)     HI,1.29,Yes,30916,26681,2230831,873131,Free,Free,2679,6464,221.89
+Atlanta             GA,Houston             TX,1.19,No,26993,27211,3532657,3770125,Free,Free,701,7201,233.16
+Austin              TX,Houston             TX,1,No,23665,27211,1038660,3770125,Free,Free,138,9874,67.1
+Boston              MA,Houston             TX,1.41,No,30124,27211,5787293,3770125,Free,Free,1605,4272,349.97
+Chicago             IL,Houston             TX,1.09,No,29260,27211,7830332,3770125,Controlled,Free,939,16868,139.56
+Chicago             IL,Houston             TX,1.09,No,29260,27211,7830332,3770125,Free,Free,939,16868,139.56
+Cleveland           OH,Houston             TX,1.31,No,26046,27211,2230955,3770125,Free,Free,1117,4057,191.63
+Corpus Christi      TX,Houston             TX,1,No,18933,27211,382155,3770125,Free,Free,184,5312,65.31
+Dallas/Fort Worth   TX,Houston             TX,1,No,28637,27211,3036732,3770125,Free,Free,234,54429,67.78
+Denver              CO,Houston             TX,1.14,No,29055,27211,1862106,3770125,Free,Free,866,5860,204.68
+Detroit             MI,Houston             TX,1.19,No,26506,27211,4459144,3770125,Free,Constrained,1102,4660,177.22
+Atlanta             GA,Indianapolis        IN,1.12,No,26993,25475,3532657,1489247,Free,Free,430,5378,109.78
+Chicago             IL,Indianapolis        IN,1,No,29260,25475,7830332,1489247,Controlled,Free,167,9355,62.63
+Chicago             IL,Indianapolis        IN,1,No,29260,25475,7830332,1489247,Free,Free,167,9355,62.63
+Detroit             MI,Indianapolis        IN,1.11,No,26506,25475,4459144,1489247,Free,Constrained,241,4790,169.58
+Fort Meyers         FL,Indianapolis        IN,1.21,Yes,24510,25475,379566,1489247,Free,Free,943,3624,105.73
+Las Vegas           NV,Indianapolis        IN,1.34,Yes,24575,25475,1197234,1489247,Free,Free,1588,7406,114.13
+Los Angeles         CA,Indianapolis        IN,1.52,No,24706,25475,9056076,1489247,Free,Free,1815,5869,153.5
+New York/Newark     NY,Indianapolis        IN,1.27,No,32991,25475,8621121,1489247,Controlled,Free,657,7109,195.64
+New York/Newark     NY,Indianapolis        IN,1.27,No,32991,25475,8621121,1489247,Controlled,Free,657,7109,195.64
+New York/Newark     NY,Indianapolis        IN,1.27,No,32991,25475,8621121,1489247,Free,Constrained,657,7109,195.64
+Orlando             FL,Indianapolis        IN,1.24,Yes,22360,25475,1421287,1489247,Free,Free,828,7675,97.36
+Phoenix             AZ,Indianapolis        IN,1.27,No,23025,25475,2753373,1489247,Free,Free,1491,5100,138.08
+San Francisco       CA,Indianapolis        IN,1.71,No,38813,25475,1653017,1489247,Free,Free,1941,3814,157.45
+Tampa               FL,Indianapolis        IN,1.28,Yes,23654,25475,2195215,1489247,Free,Free,844,5160,99.43
+Atlanta             GA,Jacksonville        FL,1,Yes,26993,23614,3532657,1008768,Free,Free,280,8571,87.59
+Chicago             IL,Jacksonville        FL,1.45,Yes,29260,23614,7830332,1008768,Controlled,Free,865,3789,158.63
+Chicago             IL,Jacksonville        FL,1.45,Yes,29260,23614,7830332,1008768,Free,Free,865,3789,158.63
+Fort Lauderdale     FL,Jacksonville        FL,1.01,Yes,26752,23614,1440377,1008768,Free,Free,303,1859,114.93
+Atlanta             GA,Kansas City         MO,1.11,No,26993,25450,3532657,1694803,Free,Free,685,6426,116.18
+Chicago             IL,Kansas City         MO,1.04,No,29260,25450,7830332,1694803,Controlled,Free,407,20529,75.71
+Chicago             IL,Kansas City         MO,1.04,No,29260,25450,7830332,1694803,Free,Free,407,20529,75.71
+Dallas/Fort Worth   TX,Kansas City         MO,1.2,No,28637,25450,3036732,1694803,Free,Free,458,9381,116.57
+Denver              CO,Kansas City         MO,1.02,No,29055,25450,1862106,1694803,Free,Free,541,7679,110.25
+Detroit             MI,Kansas City         MO,1.31,No,26506,25450,4459144,1694803,Free,Constrained,639,4987,123.27
+Houston             TX,Kansas City         MO,1.08,No,27211,25450,3770125,1694803,Free,Free,652,4649,127.78
+Las Vegas           NV,Kansas City         MO,1.39,Yes,24575,25450,1197234,1694803,Free,Free,1140,8309,78.24
+Los Angeles         CA,Kansas City         MO,1.31,No,24706,25450,9056076,1694803,Free,Free,1365,7959,116
+Albuquerque         NM,Las Vegas           NV,1.08,Yes,22089,24575,668159,1197234,Free,Free,479,7170,72.43
+Atlanta             GA,Las Vegas           NV,1.44,Yes,26993,24575,3532657,1197234,Free,Free,1744,7881,143.62
+Austin              TX,Las Vegas           NV,1.35,Yes,23665,24575,1038660,1197234,Free,Free,1087,5738,80.31
+Boston              MA,Las Vegas           NV,1.49,Yes,30124,24575,5787293,1197234,Free,Free,2372,10235,133.35
+Burbank             CA,Las Vegas           NV,1,Yes,24706,24575,9056076,1197234,Free,Free,226,16845,52.92
+Chicago             IL,Las Vegas           NV,1.15,Yes,29260,24575,7830332,1197234,Controlled,Free,1519,23739,123.74
+Chicago             IL,Las Vegas           NV,1.15,Yes,29260,24575,7830332,1197234,Free,Free,1519,23739,123.74
+Cleveland           OH,Las Vegas           NV,1.36,Yes,26046,24575,2230955,1197234,Free,Free,1831,4543,159.12
+Columbus            OH,Las Vegas           NV,1.42,Yes,24502,24575,125722,1197234,Free,Free,1769,7231,115.84
+Dallas/Fort Worth   TX,Las Vegas           NV,1.16,Yes,28637,24575,3036732,1197234,Free,Free,1052,6986,164.88
+Denver              CO,Las Vegas           NV,1.13,Yes,29055,24575,1862106,1197234,Free,Free,618,10206,89.47
+Detroit             MI,Las Vegas           NV,1.19,Yes,26506,24575,4459144,1197234,Free,Constrained,1756,6675,163.78
+Houston             TX,Las Vegas           NV,1.18,Yes,27211,24575,3770125,1197234,Free,Free,1222,9632,112.99
+Los Angeles         CA,Las Vegas           NV,1,Yes,24706,24575,9056076,1197234,Free,Free,238,51358,55.57
+Los Angeles         CA,Las Vegas           NV,1,Yes,24706,24575,9056076,1197234,Free,Free,238,51358,55.57
+Dallas/Fort Worth   TX,Little Rock         AR,1,No,28637,22726,3036732,547633,Free,Free,308,10451,59.77
+Albuquerque         NM,Los Angeles         CA,1.09,No,22089,24706,668159,9056076,Free,Free,673,11980,76.79
+Atlanta             GA,Los Angeles         CA,1.38,No,26993,24706,3532657,9056076,Free,Free,1946,13365,225.56
+Boston              MA,Los Angeles         CA,1.35,No,30124,24706,5787293,9056076,Free,Free,2605,14737,301.79
+Chicago             IL,Los Angeles         CA,1.19,No,29260,24706,7830332,9056076,Controlled,Free,1751,29771,233.78
+Chicago             IL,Los Angeles         CA,1.19,No,29260,24706,7830332,9056076,Free,Free,1751,29771,233.78
+Cleveland           OH,Los Angeles         CA,1.56,No,26046,24706,2230955,9056076,Free,Free,2062,4531,231.97
+Columbus            OH,Los Angeles         CA,1.92,No,24502,24706,125722,9056076,Free,Free,1996,3542,179.23
+Dallas/Fort Worth   TX,Los Angeles         CA,1.2,No,28637,24706,3036732,9056076,Free,Free,1234,9746,272.06
+Denver              CO,Los Angeles         CA,1.1,No,29055,24706,1862106,9056076,Free,Free,854,20889,129.8
+Detroit             MI,Los Angeles         CA,1.52,No,26506,24706,4459144,9056076,Free,Constrained,1988,6758,295.49
+Fort Lauderdale     FL,Los Angeles         CA,1.27,Yes,26752,24706,1440377,9056076,Free,Free,2341,4719,193.5
+Houston             TX,Los Angeles         CA,1.27,No,27211,24706,3770125,9056076,Free,Free,1379,11760,195.28
+Atlanta             GA,Louisville          KY,1.04,No,26993,24307,3532657,989164,Free,Free,320,4562,101.68
+Baltimore/Wash Intl MD,Louisville          KY,1.13,No,29838,24307,29838,989164,Free,Free,495,6218,60.26
+Chicago             IL,Louisville          KY,1.02,No,29260,24307,7830332,989164,Controlled,Free,276,8793,68.06
+Chicago             IL,Louisville          KY,1.02,No,29260,24307,7830332,989164,Free,Free,276,8793,68.06
+Dallas/Fort Worth   TX,Lubbock             TX,1,No,28637,20980,3036732,231325,Free,Free,283,9446,60.87
+Atlanta             GA,Memphis             TN,1.01,No,26993,24725,3532657,1074558,Free,Free,331,10255,70.62
+Atlanta             GA,Miami               FL,1.01,Yes,26993,21207,3532657,2105604,Free,Free,595,14119,97.93
+Boston              MA,Miami               FL,1.24,Yes,30124,21207,5787293,2105604,Free,Free,1259,7322,158.5
+Chicago             IL,Miami               FL,1.15,Yes,29260,21207,7830332,2105604,Controlled,Free,1187,10671,168.92
+Chicago             IL,Miami               FL,1.15,Yes,29260,21207,7830332,2105604,Free,Free,1187,10671,168.92
+Dallas/Fort Worth   TX,Miami               FL,1.16,Yes,28637,21207,3036732,2105604,Free,Free,1116,4613,185.11
+Detroit             MI,Miami               FL,1.17,Yes,26506,21207,4459144,2105604,Free,Constrained,1151,5064,133.98
+Los Angeles         CA,Miami               FL,1.21,Yes,24706,21207,9056076,2105604,Free,Free,2336,11193,207.83
+Las Vegas           NV,Milwaukee           WI,1.42,Yes,24575,26695,1197234,1646147,Free,Free,1521,2963,146.36
+New York/Newark     NY,Milwaukee           WI,1.29,No,32991,26695,8621121,1646147,Controlled,Free,736,6590,190.09
+New York/Newark     NY,Milwaukee           WI,1.29,No,32991,26695,8621121,1646147,Controlled,Free,736,6590,190.09
+New York/Newark     NY,Milwaukee           WI,1.29,No,32991,26695,8621121,1646147,Free,Constrained,736,6590,190.09
+Orlando             FL,Milwaukee           WI,1.49,Yes,22360,26695,1421287,1646147,Free,Free,1066,6935,104.87
+Phoenix             AZ,Milwaukee           WI,1.36,No,23025,26695,2753373,1646147,Free,Free,1461,4879,154.06
+Atlanta             GA,Minneapolis/St Paul MN,1.17,No,26993,28739,3532657,2761118,Free,Constrained,904,5578,269.43
+Boston              MA,Minneapolis/St Paul MN,1.18,No,30124,28739,5787293,2761118,Free,Constrained,1114,7276,258.85
+Chicago             IL,Minneapolis/St Paul MN,1.01,No,29260,28739,7830332,2761118,Controlled,Constrained,342,29137,156.93
+Chicago             IL,Minneapolis/St Paul MN,1.01,No,29260,28739,7830332,2761118,Free,Constrained,342,29137,156.93
+Dallas/Fort Worth   TX,Minneapolis/St Paul MN,1.1,No,28637,28739,3036732,2761118,Free,Constrained,857,6621,230.71
+Denver              CO,Minneapolis/St Paul MN,1.02,No,29055,28739,1862106,2761118,Free,Constrained,693,10147,133.5
+Detroit             MI,Minneapolis/St Paul MN,1.14,No,26506,28739,4459144,2761118,Free,Constrained,530,5389,286.54
+Kansas City         MO,Minneapolis/St Paul MN,1.19,No,25450,28739,1694803,2761118,Free,Constrained,401,3733,232.55
+Las Vegas           NV,Minneapolis/St Paul MN,1.13,Yes,24575,28739,1197234,2761118,Free,Constrained,1301,4353,171.67
+Los Angeles         CA,Minneapolis/St Paul MN,1.24,No,24706,28739,9056076,2761118,Free,Constrained,1539,7749,246.1
+Chicago             IL,Nashville           TN,1.02,No,29260,25995,7830332,1115048,Controlled,Free,401,10902,84.21
+Chicago             IL,Nashville           TN,1.02,No,29260,25995,7830332,1115048,Free,Free,401,10902,84.21
+Dallas/Fort Worth   TX,Nashville           TN,1.1,No,28637,25995,3036732,1115048,Free,Free,634,4632,181.99
+Detroit             MI,Nashville           TN,1.16,No,26506,25995,4459144,1115048,Free,Constrained,466,6143,166.25
+Houston             TX,Nashville           TN,1.08,No,27211,25995,3770125,1115048,Free,Free,671,5772,107.86
+Los Angeles         CA,Nashville           TN,1.57,No,24706,25995,9056076,1115048,Free,Free,1798,4462,181.02
+New York/Newark     NY,Nashville           TN,1.26,No,32991,25995,8621121,1115048,Controlled,Free,760,7387,215.01
+New York/Newark     NY,Nashville           TN,1.26,No,32991,25995,8621121,1115048,Controlled,Free,760,7387,215.01
+New York/Newark     NY,Nashville           TN,1.26,No,32991,25995,8621121,1115048,Free,Constrained,760,7387,215.01
+Orlando             FL,Nashville           TN,1.17,Yes,22360,25995,1421287,1115048,Free,Free,615,6224,87.8
+Atlanta             GA,New Orleans         LA,1.02,No,26993,22038,3532657,1308499,Free,Free,419,7796,120.7
+Chicago             IL,New Orleans         LA,1.2,No,29260,22038,7830332,1308499,Controlled,Free,829,8356,132.85
+Chicago             IL,New Orleans         LA,1.2,No,29260,22038,7830332,1308499,Free,Free,829,8356,132.85
+Dallas/Fort Worth   TX,New Orleans         LA,1.05,No,28637,22038,3036732,1308499,Free,Free,455,12717,84.53
+Houston             TX,New Orleans         LA,1.01,No,27211,22038,3770125,1308499,Free,Free,319,19894,76.81
+Los Angeles         CA,New Orleans         LA,1.43,No,24706,22038,9056076,1308499,Free,Free,1678,5559,202
+Albuquerque         NM,New York/Newark     NY,1.92,No,22089,32991,668159,8621121,Controlled,Free,1822,4002,208.79
+Albuquerque         NM,New York/Newark     NY,1.92,No,22089,32991,668159,8621121,Controlled,Free,1822,4002,208.79
+Albuquerque         NM,New York/Newark     NY,1.92,No,22089,32991,668159,8621121,Free,Constrained,1822,4002,208.79
+Atlanta             GA,New York/Newark     NY,1.06,No,26993,32991,3532657,8621121,Controlled,Free,756,48642,162.28
+Atlanta             GA,New York/Newark     NY,1.06,No,26993,32991,3532657,8621121,Controlled,Free,756,48642,162.28
+Atlanta             GA,New York/Newark     NY,1.06,No,26993,32991,3532657,8621121,Free,Constrained,756,48642,162.28
+Austin              TX,New York/Newark     NY,1.69,No,23665,32991,1038660,8621121,Controlled,Free,1515,3802,287.23
+Austin              TX,New York/Newark     NY,1.69,No,23665,32991,1038660,8621121,Controlled,Free,1515,3802,287.23
+Austin              TX,New York/Newark     NY,1.69,No,23665,32991,1038660,8621121,Free,Constrained,1515,3802,287.23
+Boston              MA,New York/Newark     NY,1,No,30124,32991,5787293,8621121,Controlled,Free,183,66820,116.78
+Boston              MA,New York/Newark     NY,1,No,30124,32991,5787293,8621121,Controlled,Free,183,66820,116.78
+Boston              MA,New York/Newark     NY,1,No,30124,32991,5787293,8621121,Free,Constrained,183,66820,116.78
+Chicago             IL,New York/Newark     NY,1.05,No,29260,32991,7830332,8621121,Controlled,Free,723,73892,159.71
+Chicago             IL,New York/Newark     NY,1.05,No,29260,32991,7830332,8621121,Controlled,Free,723,73892,159.71
+Chicago             IL,New York/Newark     NY,1.05,No,29260,32991,7830332,8621121,Controlled,Constrained,723,73892,159.71
+Chicago             IL,New York/Newark     NY,1.05,No,29260,32991,7830332,8621121,Controlled,Free,723,73892,159.71
+Chicago             IL,New York/Newark     NY,1.05,No,29260,32991,7830332,8621121,Controlled,Free,723,73892,159.71
+Chicago             IL,New York/Newark     NY,1.05,No,29260,32991,7830332,8621121,Free,Constrained,723,73892,159.71
+Cincinnati          OH,New York/Newark     NY,1.1,No,25059,32991,1595139,8621121,Controlled,Constrained,582,9567,205
+Cincinnati          OH,New York/Newark     NY,1.1,No,25059,32991,1595139,8621121,Controlled,Constrained,582,9567,205
+Cincinnati          OH,New York/Newark     NY,1.1,No,25059,32991,1595139,8621121,Free,Constrained,582,9567,205
+Cleveland           OH,New York/Newark     NY,1.07,No,26046,32991,2230955,8621121,Controlled,Free,408,13252,143.44
+Cleveland           OH,New York/Newark     NY,1.07,No,26046,32991,2230955,8621121,Controlled,Free,408,13252,143.44
+Cleveland           OH,New York/Newark     NY,1.07,No,26046,32991,2230955,8621121,Free,Constrained,408,13252,143.44
+Columbus            OH,New York/Newark     NY,1.11,No,24502,32991,125722,8621121,Controlled,Free,475,10168,174.87
+Columbus            OH,New York/Newark     NY,1.11,No,24502,32991,125722,8621121,Controlled,Free,475,10168,174.87
+Columbus            OH,New York/Newark     NY,1.11,No,24502,32991,125722,8621121,Free,Constrained,475,10168,174.87
+Dallas/Fort Worth   TX,New York/Newark     NY,1.12,No,28637,32991,3036732,8621121,Controlled,Free,1389,24082,304.18
+Dallas/Fort Worth   TX,New York/Newark     NY,1.12,No,28637,32991,3036732,8621121,Controlled,Free,1389,24082,304.18
+Dallas/Fort Worth   TX,New York/Newark     NY,1.12,No,28637,32991,3036732,8621121,Free,Constrained,1389,24082,304.18
+Denver              CO,New York/Newark     NY,1.25,No,29055,32991,1862106,8621121,Controlled,Free,1624,16240,270.36
+Denver              CO,New York/Newark     NY,1.25,No,29055,32991,1862106,8621121,Controlled,Free,1624,16240,270.36
+Denver              CO,New York/Newark     NY,1.25,No,29055,32991,1862106,8621121,Free,Constrained,1624,16240,270.36
+Detroit             MI,New York/Newark     NY,1.06,No,26506,32991,4459144,8621121,Controlled,Constrained,492,17775,209.35
+Detroit             MI,New York/Newark     NY,1.06,No,26506,32991,4459144,8621121,Controlled,Constrained,492,17775,209.35
+Detroit             MI,New York/Newark     NY,1.06,No,26506,32991,4459144,8621121,Free,Constrained,492,17775,209.35
+Fort Lauderdale     FL,New York/Newark     NY,1.06,Yes,26752,32991,1440377,8621121,Controlled,Free,1068,40159,123.18
+Fort Lauderdale     FL,New York/Newark     NY,1.06,Yes,26752,32991,1440377,8621121,Controlled,Free,1068,40159,123.18
+Fort Lauderdale     FL,New York/Newark     NY,1.06,Yes,26752,32991,1440377,8621121,Free,Constrained,1068,40159,123.18
+Fort Meyers         FL,New York/Newark     NY,1.22,Yes,24510,32991,379566,8621121,Controlled,Free,1076,9399,143.2
+Fort Meyers         FL,New York/Newark     NY,1.22,Yes,24510,32991,379566,8621121,Controlled,Free,1076,9399,143.2
+Fort Meyers         FL,New York/Newark     NY,1.22,Yes,24510,32991,379566,8621121,Free,Constrained,1076,9399,143.2
+Greenville/Sprtnbg  SC,New York/Newark     NY,1.29,No,21081,32991,895123,8621121,Controlled,Free,613,3806,144.6
+Greenville/Sprtnbg  SC,New York/Newark     NY,1.29,No,21081,32991,895123,8621121,Controlled,Free,613,3806,144.6
+Greenville/Sprtnbg  SC,New York/Newark     NY,1.29,No,21081,32991,895123,8621121,Free,Constrained,613,3806,144.6
+Houston             TX,New York/Newark     NY,1.29,No,27211,32991,3770125,8621121,Controlled,Free,1426,15711,349.53
+Houston             TX,New York/Newark     NY,1.29,No,27211,32991,3770125,8621121,Controlled,Free,1426,15711,349.53
+Houston             TX,New York/Newark     NY,1.29,No,27211,32991,3770125,8621121,Free,Constrained,1426,15711,349.53
+Jacksonville        FL,New York/Newark     NY,1.34,Yes,23614,32991,1008768,8621121,Controlled,Free,842,7098,183.43
+Jacksonville        FL,New York/Newark     NY,1.34,Yes,23614,32991,1008768,8621121,Controlled,Free,842,7098,183.43
+Jacksonville        FL,New York/Newark     NY,1.34,Yes,23614,32991,1008768,8621121,Free,Constrained,842,7098,183.43
+Kansas City         MO,New York/Newark     NY,1.4,No,25450,32991,1694803,8621121,Controlled,Free,1103,7543,223.99
+Kansas City         MO,New York/Newark     NY,1.4,No,25450,32991,1694803,8621121,Controlled,Free,1103,7543,223.99
+Kansas City         MO,New York/Newark     NY,1.4,No,25450,32991,1694803,8621121,Free,Constrained,1103,7543,223.99
+Las Vegas           NV,New York/Newark     NY,1.36,Yes,24575,32991,1197234,8621121,Controlled,Free,2237,26582,169.41
+Las Vegas           NV,New York/Newark     NY,1.36,Yes,24575,32991,1197234,8621121,Controlled,Free,2237,26582,169.41
+Las Vegas           NV,New York/Newark     NY,1.36,Yes,24575,32991,1197234,8621121,Free,Constrained,2237,26582,169.41
+Los Angeles         CA,New York/Newark     NY,1.17,No,24706,32991,9056076,8621121,Controlled,Free,2467,60435,326.47
+Los Angeles         CA,New York/Newark     NY,1.17,No,24706,32991,9056076,8621121,Controlled,Free,2467,60435,326.47
+Los Angeles         CA,New York/Newark     NY,1.17,No,24706,32991,9056076,8621121,Free,Constrained,2467,60435,326.47
+Memphis             TN,New York/Newark     NY,1.29,No,24725,32991,1074558,8621121,Controlled,Free,951,4614,234.31
+Memphis             TN,New York/Newark     NY,1.29,No,24725,32991,1074558,8621121,Controlled,Free,951,4614,234.31
+Memphis             TN,New York/Newark     NY,1.29,No,24725,32991,1074558,8621121,Free,Constrained,951,4614,234.31
+Miami               FL,New York/Newark     NY,1.05,Yes,21207,32991,2105604,8621121,Controlled,Free,1097,51122,124.92
+Miami               FL,New York/Newark     NY,1.05,Yes,21207,32991,2105604,8621121,Controlled,Free,1097,51122,124.92
+Miami               FL,New York/Newark     NY,1.05,Yes,21207,32991,2105604,8621121,Free,Constrained,1097,51122,124.92
+Minneapolis/St Paul MN,New York/Newark     NY,1.15,No,28739,32991,2761118,8621121,Controlled,Constrained,1015,13123,278.39
+Minneapolis/St Paul MN,New York/Newark     NY,1.15,No,28739,32991,2761118,8621121,Controlled,Constrained,1015,13123,278.39
+Minneapolis/St Paul MN,New York/Newark     NY,1.15,No,28739,32991,2761118,8621121,Free,Constrained,1015,13123,278.39
+New Orleans         LA,New York/Newark     NY,1.42,No,22038,32991,1308499,8621121,Controlled,Free,1173,10334,208.71
+New Orleans         LA,New York/Newark     NY,1.42,No,22038,32991,1308499,8621121,Controlled,Free,1173,10334,208.71
+New Orleans         LA,New York/Newark     NY,1.42,No,22038,32991,1308499,8621121,Free,Constrained,1173,10334,208.71
+Norfolk/Va B/Pt/Ch  VA,New York/Newark     NY,1.02,No,21125,32991,1536012,8621121,Controlled,Free,291,6295,150.13
+Norfolk/Va B/Pt/Ch  VA,New York/Newark     NY,1.02,No,21125,32991,1536012,8621121,Controlled,Free,291,6295,150.13
+Norfolk/Va B/Pt/Ch  VA,New York/Newark     NY,1.02,No,21125,32991,1536012,8621121,Free,Constrained,291,6295,150.13
+Burbank             CA,Oakland             CA,1,No,24706,29846,9056076,2237227,Free,Free,325,23041,56.43
+Las Vegas           NV,Oakland             CA,1.05,Yes,24575,29846,1197234,2237227,Free,Free,407,13356,58.03
+Los Angeles         CA,Oakland             CA,1,No,24706,29846,9056076,2237227,Free,Free,334,43884,53.8
+Dallas/Fort Worth   TX,Oklahoma City       OK,1,No,28637,20927,3036732,1021733,Free,Free,180,7646,66.14
+Houston             TX,Oklahoma City       OK,1.09,No,27211,20927,3770125,1021733,Free,Free,410,5425,96.18
+Chicago             IL,Omaha               NE,1.02,No,29260,25127,7830332,679984,Controlled,Free,428,8724,67.77
+Chicago             IL,Omaha               NE,1.02,No,29260,25127,7830332,679984,Free,Free,428,8724,67.77
+Denver              CO,Omaha               NE,1,No,29055,25127,1862106,679984,Free,Free,474,3734,139.81
+Atlanta             GA,Orlando             FL,1.01,Yes,26993,22360,3532657,1421287,Free,Free,404,18673,92.78
+Boston              MA,Orlando             FL,1.24,Yes,30124,22360,5787293,1421287,Free,Free,1119,23222,117.97
+Chicago             IL,Orlando             FL,1.09,Yes,29260,22360,7830332,1421287,Controlled,Free,995,26034,121.67
+Chicago             IL,Orlando             FL,1.09,Yes,29260,22360,7830332,1421287,Free,Free,995,26034,121.67
+Cincinnati          OH,Orlando             FL,1.17,Yes,25059,22360,1595139,1421287,Free,Constrained,756,5235,138.88
+Cleveland           OH,Orlando             FL,1.34,Yes,26046,22360,2230955,1421287,Free,Free,902,5696,140.9
+Columbus            OH,Orlando             FL,1.5,Yes,24502,22360,125722,1421287,Free,Free,802,6399,104.33
+Dallas/Fort Worth   TX,Orlando             FL,1.08,Yes,28637,22360,3036732,1421287,Free,Free,984,11392,153.58
+Denver              CO,Orlando             FL,1.55,Yes,29055,22360,1862106,1421287,Free,Free,1545,5820,201.43
+Detroit             MI,Orlando             FL,1.16,Yes,26506,22360,4459144,1421287,Free,Constrained,963,16414,102.95
+Fort Lauderdale     FL,Orlando             FL,1,Yes,26752,22360,1440377,1421287,Free,Free,174,9216,45.55
+Hartford            CT,Orlando             FL,1.36,Yes,30268,22360,1106780,1421287,Free,Free,1045,9823,114.5
+Houston             TX,Orlando             FL,1.28,Yes,27211,22360,3770125,1421287,Free,Free,856,5798,150.04
+Kansas City         MO,Orlando             FL,1.68,Yes,25450,22360,1694803,1421287,Free,Free,1064,5610,121.35
+Las Vegas           NV,Orlando             FL,1.48,Yes,24575,22360,1197234,1421287,Free,Free,2035,5829,117.59
+Los Angeles         CA,Orlando             FL,1.4,Yes,24706,22360,9056076,1421287,Free,Free,2216,8084,258.43
+Miami               FL,Orlando             FL,1,Yes,21207,22360,2105604,1421287,Free,Free,192,7967,96.53
+Miami               FL,Orlando             FL,1,Yes,21207,22360,2105604,1421287,Free,Free,192,7967,96.53
+Minneapolis/St Paul MN,Orlando             FL,1.34,Yes,28739,22360,2761118,1421287,Free,Constrained,1308,4978,204.62
+New Orleans         LA,Orlando             FL,1.3,Yes,22038,22360,1308499,1421287,Free,Free,541,5057,92.35
+New York/Newark     NY,Orlando             FL,1.08,Yes,32991,22360,8621121,1421287,Controlled,Free,947,54990,123.97
+New York/Newark     NY,Orlando             FL,1.08,Yes,32991,22360,8621121,1421287,Controlled,Free,947,54990,123.97
+New York/Newark     NY,Orlando             FL,1.08,Yes,32991,22360,8621121,1421287,Free,Constrained,947,54990,123.97
+Atlanta             GA,Philadelphia/Camden PA,1.06,No,26993,27994,3532657,4948339,Free,Free,674,16512,125.09
+Boston              MA,Philadelphia/Camden PA,1.02,No,30124,27994,5787293,4948339,Free,Free,265,17196,138.56
+Chicago             IL,Philadelphia/Camden PA,1.08,No,29260,27994,7830332,4948339,Controlled,Free,673,16559,215.06
+Chicago             IL,Philadelphia/Camden PA,1.08,No,29260,27994,7830332,4948339,Free,Free,673,16559,215.06
+Dallas/Fort Worth   TX,Philadelphia/Camden PA,1.17,No,28637,27994,3036732,4948339,Free,Free,1314,7630,249.45
+Denver              CO,Philadelphia/Camden PA,1.35,No,29055,27994,1862106,4948339,Free,Free,1568,3599,335.55
+Detroit             MI,Philadelphia/Camden PA,1.05,No,26506,27994,4459144,4948339,Free,Constrained,450,7899,175.66
+Fort Lauderdale     FL,Philadelphia/Camden PA,1.21,Yes,26752,27994,1440377,4948339,Free,Free,997,6541,132.77
+Houston             TX,Philadelphia/Camden PA,1.36,No,27211,27994,3770125,4948339,Free,Free,1347,4023,353.56
+Las Vegas           NV,Philadelphia/Camden PA,1.36,Yes,24575,27994,1197234,4948339,Free,Free,2179,6948,165.9
+Los Angeles         CA,Philadelphia/Camden PA,1.37,No,24706,27994,9056076,4948339,Free,Free,2407,8981,293.21
+Miami               FL,Philadelphia/Camden PA,1.15,Yes,21207,27994,2105604,4948339,Free,Free,1026,5725,152.67
+Minneapolis/St Paul MN,Philadelphia/Camden PA,1.18,No,28739,27994,2761118,4948339,Free,Constrained,979,4149,295.46
+Orlando             FL,Philadelphia/Camden PA,1.14,Yes,22360,27994,1421287,4948339,Free,Free,872,17853,114.28
+Albuquerque         NM,Phoenix             AZ,1,No,22089,23025,668159,2753373,Free,Free,327,13947,57.05
+Atlanta             GA,Phoenix             AZ,1.25,No,26993,23025,3532657,2753373,Free,Free,1591,5944,200.09
+Austin              TX,Phoenix             AZ,1.1,No,23665,23025,1038660,2753373,Free,Free,876,4511,105.41
+Boston              MA,Phoenix             AZ,1.7,No,30124,23025,5787293,2753373,Free,Free,2295,7130,197.42
+Burbank             CA,Phoenix             AZ,1,No,24706,23025,9056076,2753373,Free,Free,363,10529,57.33
+Chicago             IL,Phoenix             AZ,1.11,No,29260,23025,7830332,2753373,Controlled,Free,1446,23009,152.1
+Chicago             IL,Phoenix             AZ,1.11,No,29260,23025,7830332,2753373,Free,Free,1446,23009,152.1
+Cleveland           OH,Phoenix             AZ,1.56,No,26046,23025,2230955,2753373,Free,Free,1749,4272,166.66
+Columbus            OH,Phoenix             AZ,1.56,No,24502,23025,125722,2753373,Free,Free,1673,4780,158
+Dallas/Fort Worth   TX,Phoenix             AZ,1.1,No,28637,23025,3036732,2753373,Free,Free,870,7060,229.84
+Denver              CO,Phoenix             AZ,1.02,No,29055,23025,1862106,2753373,Free,Free,590,11723,133.04
+Detroit             MI,Phoenix             AZ,1.22,No,26506,23025,4459144,2753373,Free,Constrained,1682,8384,191.66
+El Paso             TX,Phoenix             AZ,1,No,14600,23025,677757,2753373,Free,Free,353,6211,60.73
+Houston             TX,Phoenix             AZ,1.08,No,27211,23025,3770125,2753373,Free,Free,1014,6277,148.28
+Kansas City         MO,Phoenix             AZ,1.18,No,25450,23025,1694803,2753373,Free,Free,1046,8478,85.48
+Las Vegas           NV,Phoenix             AZ,1,Yes,24575,23025,1197234,2753373,Free,Free,248,22995,53.07
+Los Angeles         CA,Phoenix             AZ,1.01,No,24706,23025,9056076,2753373,Free,Free,366,35471,51.73
+Minneapolis/St Paul MN,Phoenix             AZ,1.12,No,28739,23025,2761118,2753373,Free,Constrained,1279,8730,195.91
+New York/Newark     NY,Phoenix             AZ,1.39,No,32991,23025,8621121,2753373,Controlled,Free,2148,14830,273.12
+New York/Newark     NY,Phoenix             AZ,1.39,No,32991,23025,8621121,2753373,Controlled,Free,2148,14830,273.12
+New York/Newark     NY,Phoenix             AZ,1.39,No,32991,23025,8621121,2753373,Free,Constrained,2148,14830,273.12
+Oakland             CA,Phoenix             AZ,1.03,No,29846,23025,2237227,2753373,Free,Free,638,8271,84.15
+Omaha               NE,Phoenix             AZ,1.34,No,25127,23025,679984,2753373,Free,Free,1031,5953,81.32
+Orlando             FL,Phoenix             AZ,1.78,Yes,22360,23025,1421287,2753373,Free,Free,1851,4099,162.53
+Philadelphia/Camden PA,Phoenix             AZ,1.55,No,27994,23025,4948339,2753373,Free,Free,2083,3891,291.78
+Atlanta             GA,Pittsburgh          PA,1.04,No,26993,25054,3532657,2374260,Free,Constrained,525,7664,93.55
+Boston              MA,Pittsburgh          PA,1.1,No,30124,25054,5787293,2374260,Free,Constrained,483,5539,186.28
+Chicago             IL,Pittsburgh          PA,1.05,No,29260,25054,7830332,2374260,Controlled,Constrained,412,6585,208.86
+Chicago             IL,Pittsburgh          PA,1.05,No,29260,25054,7830332,2374260,Free,Constrained,412,6585,208.86
+New York/Newark     NY,Pittsburgh          PA,1.02,No,32991,25054,8621121,2374260,Controlled,Constrained,325,13957,169.9
+New York/Newark     NY,Pittsburgh          PA,1.02,No,32991,25054,8621121,2374260,Controlled,Constrained,325,13957,169.9
+New York/Newark     NY,Pittsburgh          PA,1.02,No,32991,25054,8621121,2374260,Free,Constrained,325,13957,169.9
+New York/Newark     NY,Pittsburgh          PA,1.02,No,32991,25054,8621121,2374260,Free,Constrained,325,13957,169.9
+Orlando             FL,Pittsburgh          PA,1.23,Yes,22360,25054,1421287,2374260,Free,Constrained,831,7121,122.62
+Philadelphia/Camden PA,Pittsburgh          PA,1.02,No,27994,25054,4948339,2374260,Free,Constrained,264,9515,134.09
+Boise               ID,Portland            OR,1.01,No,23901,26409,372606,249561,Free,Free,344,5899,66.88
+Chicago             IL,Portland            OR,1.34,No,29260,26409,7830332,249561,Controlled,Free,1749,5025,279.61
+Chicago             IL,Portland            OR,1.34,No,29260,26409,7830332,249561,Free,Free,1749,5025,279.61
+Denver              CO,Portland            OR,1.3,No,29055,26409,1862106,249561,Free,Free,992,4701,188.46
+Honolulu (Intl)     HI,Portland            OR,1.63,Yes,26681,26409,873131,249561,Free,Free,2603,2746,205.51
+Las Vegas           NV,Portland            OR,1.16,Yes,24575,26409,1197234,249561,Free,Free,760,9497,69.19
+Los Angeles         CA,Portland            OR,1.06,No,24706,26409,9056076,249561,Free,Free,831,16784,91.97
+New York/Newark     NY,Portland            OR,1.77,No,32991,26409,8621121,249561,Controlled,Free,2444,4455,302.33
+New York/Newark     NY,Portland            OR,1.77,No,32991,26409,8621121,249561,Controlled,Free,2444,4455,302.33
+New York/Newark     NY,Portland            OR,1.77,No,32991,26409,8621121,249561,Free,Constrained,2444,4455,302.33
+Oakland             CA,Portland            OR,1.01,No,29846,26409,2237227,249561,Free,Free,543,10016,63.76
+Phoenix             AZ,Portland            OR,1.31,No,23025,26409,2753373,249561,Free,Free,1001,8292,114.95
+Sacramento          CA,Portland            OR,1.04,No,24236,26409,1481076,249561,Free,Free,485,7070,65.8
+Salt Lake City      UT,Portland            OR,1.03,No,21121,26409,1228816,249561,Free,Free,633,6602,79.48
+San Diego           CA,Portland            OR,1.26,No,23903,26409,2673620,249561,Free,Free,933,6302,96.58
+San Francisco       CA,Portland            OR,1.01,No,38813,26409,1653017,249561,Free,Free,542,13527,68.41
+San Jose            CA,Portland            OR,1,No,34880,26409,1594251,249561,Free,Free,569,11593,65.84
+Seattle/Tacoma      WA,Portland            OR,1,No,30916,26409,2230831,249561,Free,Free,135,11415,88.46
+Spokane             WA,Portland            OR,1.01,No,21300,26409,403939,249561,Free,Free,281,6760,50.38
+Baltimore/Wash Intl MD,Providence          RI,1.11,No,29838,24205,29838,905329,Free,Free,328,1504,176.88
+Chicago             IL,Providence          RI,1.11,No,29260,24205,7830332,905329,Controlled,Free,842,2874,219.38
+Chicago             IL,Providence          RI,1.11,No,29260,24205,7830332,905329,Free,Free,842,2874,219.38
+New York/Newark     NY,Providence          RI,1,No,32991,24205,8621121,905329,Controlled,Free,147,4158,106.29
+New York/Newark     NY,Providence          RI,1,No,32991,24205,8621121,905329,Controlled,Free,147,4158,106.29
+New York/Newark     NY,Providence          RI,1,No,32991,24205,8621121,905329,Free,Constrained,147,4158,106.29
+Orlando             FL,Providence          RI,1.55,Yes,22360,24205,1421287,905329,Free,Free,1075,4771,108.96
+Atlanta             GA,Raleigh/Durham      NC,1.03,No,26993,26101,3532657,1021830,Free,Free,356,9307,123.44
+Boston              MA,Raleigh/Durham      NC,1.26,No,30124,26101,5787293,1021830,Free,Free,606,5598,140.07
+Chicago             IL,Raleigh/Durham      NC,1.12,No,29260,26101,7830332,1021830,Controlled,Free,636,6123,193.67
+Chicago             IL,Raleigh/Durham      NC,1.12,No,29260,26101,7830332,1021830,Free,Free,636,6123,193.67
+Dallas/Fort Worth   TX,Raleigh/Durham      NC,1.19,No,28637,26101,3036732,1021830,Free,Free,1065,4285,230.56
+New York/Newark     NY,Raleigh/Durham      NC,1.06,No,32991,26101,8621121,1021830,Controlled,Free,426,12883,154.73
+New York/Newark     NY,Raleigh/Durham      NC,1.06,No,32991,26101,8621121,1021830,Controlled,Free,426,12883,154.73
+New York/Newark     NY,Raleigh/Durham      NC,1.06,No,32991,26101,8621121,1021830,Free,Constrained,426,12883,154.73
+Philadelphia/Camden PA,Raleigh/Durham      NC,1.02,No,27994,26101,4948339,1021830,Free,Free,346,4288,144.86
+Washington          DC,Raleigh/Durham      NC,1.01,No,31981,26101,4549784,1021830,Free,Free,225,7241,109.44
+Washington          DC,Raleigh/Durham      NC,1.01,No,31981,26101,4549784,1021830,Controlled,Free,225,7241,109.44
+Chicago             IL,Reno                NV,1.41,Yes,29260,29284,7830332,298680,Controlled,Free,1680,3926,125.9
+Chicago             IL,Reno                NV,1.41,Yes,29260,29284,7830332,298680,Free,Free,1680,3926,125.9
+Las Vegas           NV,Reno                NV,1,Yes,24575,29284,1197234,298680,Free,Free,344,13102,54.38
+Los Angeles         CA,Reno                NV,1.09,Yes,24706,29284,9056076,298680,Free,Free,388,10213,60.28
+Oakland             CA,Reno                NV,1,Yes,29846,29284,2237227,298680,Free,Free,180,5220,47.85
+Phoenix             AZ,Reno                NV,1.07,Yes,23025,29284,2753373,298680,Free,Free,592,4517,72.42
+Portland            OR,Reno                NV,1.06,Yes,26409,29284,249561,298680,Free,Free,444,9368,44.89
+San Diego           CA,Reno                NV,1.15,Yes,23903,29284,2673620,298680,Free,Free,488,3958,68.59
+San Jose            CA,Reno                NV,1,Yes,34880,29284,1594251,298680,Free,Free,188,6394,42.47
+Seattle/Tacoma      WA,Reno                NV,1.02,Yes,30916,29284,2230831,298680,Free,Free,569,14609,45.11
+New York/Newark     NY,Richmond (Intl)     VA,1.04,No,32991,26553,8621121,936107,Controlled,Free,287,4472,218.54
+New York/Newark     NY,Richmond (Intl)     VA,1.04,No,32991,26553,8621121,936107,Controlled,Free,287,4472,218.54
+New York/Newark     NY,Richmond (Intl)     VA,1.04,No,32991,26553,8621121,936107,Free,Constrained,287,4472,218.54
+New York/Newark     NY,Rochester           NY,1.01,No,32991,26044,8621121,113091,Controlled,Free,254,8469,127.38
+New York/Newark     NY,Rochester           NY,1.01,No,32991,26044,8621121,113091,Controlled,Free,254,8469,127.38
+New York/Newark     NY,Rochester           NY,1.01,No,32991,26044,8621121,113091,Free,Constrained,254,8469,127.38
+Burbank             CA,Sacramento          CA,1.01,No,24706,24236,9056076,1481076,Free,Free,349,15444,52.53
+Las Vegas           NV,Sacramento          CA,1.18,Yes,24575,24236,1197234,1481076,Free,Free,387,7985,56.91
+Los Angeles         CA,Sacramento          CA,1.01,No,24706,24236,9056076,1481076,Free,Free,361,18833,56.79
+Phoenix             AZ,Sacramento          CA,1.1,No,23025,24236,2753373,1481076,Free,Free,629,7007,78.67
+San Diego           CA,Sacramento          CA,1.02,No,23903,24236,2673620,1481076,Free,Free,472,15062,57.57
+Seattle/Tacoma      WA,Sacramento          CA,1.03,No,30916,24236,2230831,1481076,Free,Free,618,10303,64.39
+Atlanta             GA,Salt Lake City      UT,1.46,No,26993,21121,3532657,1228816,Free,Free,1588,4644,179.13
+Chicago             IL,Salt Lake City      UT,1.22,No,29260,21121,7830332,1228816,Controlled,Free,1259,5763,185.65
+Chicago             IL,Salt Lake City      UT,1.22,No,29260,21121,7830332,1228816,Free,Free,1259,5763,185.65
+Denver              CO,Salt Lake City      UT,1,No,29055,21121,1862106,1228816,Free,Free,388,12994,69.6
+Las Vegas           NV,Salt Lake City      UT,1.01,Yes,24575,21121,1197234,1228816,Free,Free,359,10349,57.4
+Los Angeles         CA,Salt Lake City      UT,1.05,No,24706,21121,9056076,1228816,Free,Free,584,17617,66.46
+New York/Newark     NY,Salt Lake City      UT,1.64,No,32991,21121,8621121,1228816,Controlled,Free,1982,4739,259.32
+New York/Newark     NY,Salt Lake City      UT,1.64,No,32991,21121,8621121,1228816,Controlled,Free,1982,4739,259.32
+New York/Newark     NY,Salt Lake City      UT,1.64,No,32991,21121,8621121,1228816,Free,Constrained,1982,4739,259.32
+Oakland             CA,Salt Lake City      UT,1,No,29846,21121,2237227,1228816,Free,Free,586,6460,69.95
+Phoenix             AZ,Salt Lake City      UT,1.01,No,23025,21121,2753373,1228816,Free,Free,495,12447,73.69
+Sacramento          CA,Salt Lake City      UT,1.05,No,24236,21121,1481076,1228816,Free,Free,525,4176,72.22
+San Diego           CA,Salt Lake City      UT,1.06,No,23903,21121,2673620,1228816,Free,Free,617,6671,65.91
+San Francisco       CA,Salt Lake City      UT,1.02,No,38813,21121,1653017,1228816,Free,Free,593,6213,85.19
+Seattle/Tacoma      WA,Salt Lake City      UT,1.03,No,30916,21121,2230831,1228816,Free,Free,696,9201,78.3
+Chicago             IL,San Antonio         TX,1.28,No,29260,21276,7830332,1481709,Controlled,Free,1038,6233,128.36
+Chicago             IL,San Antonio         TX,1.28,No,29260,21276,7830332,1481709,Free,Free,1038,6233,128.36
+Dallas/Fort Worth   TX,San Antonio         TX,1.01,No,28637,21276,3036732,1481709,Free,Free,242,22163,63.69
+Houston             TX,San Antonio         TX,1,No,27211,21276,3770125,1481709,Free,Free,177,10581,63.92
+Las Vegas           NV,San Antonio         TX,1.3,Yes,24575,21276,1197234,1481709,Free,Free,1074,6756,86.71
+Los Angeles         CA,San Antonio         TX,1.42,No,24706,21276,9056076,1481709,Free,Free,1218,4620,130.09
+New York/Newark     NY,San Antonio         TX,1.78,No,32991,21276,8621121,1481709,Controlled,Free,1577,3732,273.53
+New York/Newark     NY,San Antonio         TX,1.78,No,32991,21276,8621121,1481709,Controlled,Free,1577,3732,273.53
+New York/Newark     NY,San Antonio         TX,1.78,No,32991,21276,8621121,1481709,Free,Constrained,1577,3732,273.53
+Orlando             FL,San Antonio         TX,1.6,Yes,22360,21276,1421287,1481709,Free,Free,1032,2978,118.17
+Atlanta             GA,San Diego           CA,1.44,No,26993,23903,3532657,2673620,Free,Free,1886,4445,204.35
+Boston              MA,San Diego           CA,1.94,No,30124,23903,5787293,2673620,Free,Free,2576,3987,291.51
+Chicago             IL,San Diego           CA,1.27,No,29260,23903,7830332,2673620,Controlled,Free,1724,9252,219.63
+Chicago             IL,San Diego           CA,1.27,No,29260,23903,7830332,2673620,Free,Free,1724,9252,219.63
+Dallas/Fort Worth   TX,San Diego           CA,1.18,No,28637,23903,3036732,2673620,Free,Free,1163,4596,252.97
+Denver              CO,San Diego           CA,1.2,No,29055,23903,1862106,2673620,Free,Free,840,6901,134.79
+Las Vegas           NV,San Diego           CA,1.01,Yes,24575,23903,1197234,2673620,Free,Free,258,17966,53.14
+Los Angeles         CA,San Diego           CA,1,No,24706,23903,9056076,2673620,Free,Free,114,6446,70.41
+Los Angeles         CA,San Diego           CA,1,No,24706,23903,9056076,2673620,Free,Free,114,6446,70.41
+Minneapolis/St Paul MN,San Diego           CA,1.3,No,28739,23903,2761118,2673620,Free,Constrained,1532,3066,251.73
+New York/Newark     NY,San Diego           CA,1.57,No,32991,23903,8621121,2673620,Controlled,Free,2433,9343,299.17
+New York/Newark     NY,San Diego           CA,1.57,No,32991,23903,8621121,2673620,Controlled,Free,2433,9343,299.17
+New York/Newark     NY,San Diego           CA,1.57,No,32991,23903,8621121,2673620,Free,Constrained,2433,9343,299.17
+Oakland             CA,San Diego           CA,1.02,No,29846,23903,2237227,2673620,Free,Free,448,16226,57.29
+Phoenix             AZ,San Diego           CA,1.01,No,23025,23903,2753373,2673620,Free,Free,295,20653,50.1
+San Francisco       CA,San Diego           CA,1.02,No,38813,23903,1653017,2673620,Free,Free,455,27906,58.68
+Seattle/Tacoma      WA,San Diego           CA,1.26,No,30916,23903,2230831,2673620,Free,Free,1056,11396,100.8
+Atlanta             GA,San Francisco       CA,1.36,No,26993,38813,3532657,1653017,Free,Free,2137,10112,248.49
+Boston              MA,San Francisco       CA,1.39,No,30124,38813,5787293,1653017,Free,Free,2694,16050,367.72
+Burbank             CA,San Francisco       CA,1,No,24706,38813,9056076,1653017,Free,Free,332,14363,83.74
+Chicago             IL,San Francisco       CA,1.2,No,29260,38813,7830332,1653017,Controlled,Free,1851,20831,291.66
+Chicago             IL,San Francisco       CA,1.2,No,29260,38813,7830332,1653017,Free,Free,1851,20831,291.66
+Dallas/Fort Worth   TX,San Francisco       CA,1.24,No,28637,38813,3036732,1653017,Free,Free,1463,7537,297.83
+Denver              CO,San Francisco       CA,1.09,No,29055,38813,1862106,1653017,Free,Free,960,15039,168.96
+Detroit             MI,San Francisco       CA,1.37,No,26506,38813,4459144,1653017,Free,Constrained,2084,4913,314.88
+Houston             TX,San Francisco       CA,1.26,No,27211,38813,3770125,1653017,Free,Free,1637,7341,241.04
+Kansas City         MO,San Francisco       CA,1.35,No,25450,38813,1694803,1653017,Free,Free,1500,6158,116.52
+Las Vegas           NV,San Francisco       CA,1.06,Yes,24575,38813,1197234,1653017,Free,Free,416,17840,72.58
+Los Angeles         CA,San Francisco       CA,1.02,No,24706,38813,9056076,1653017,Free,Free,341,43671,79.23
+Miami               FL,San Francisco       CA,1.43,Yes,21207,38813,2105604,1653017,Free,Free,2579,4583,261.67
+Minneapolis/St Paul MN,San Francisco       CA,1.19,No,28739,38813,2761118,1653017,Free,Constrained,1589,8881,224.17
+New York/Newark     NY,San Francisco       CA,1.24,No,32991,38813,8621121,1653017,Controlled,Free,2574,41492,374.4
+New York/Newark     NY,San Francisco       CA,1.24,No,32991,38813,8621121,1653017,Controlled,Free,2574,41492,374.4
+New York/Newark     NY,San Francisco       CA,1.24,No,32991,38813,8621121,1653017,Free,Constrained,2574,41492,374.4
+Orlando             FL,San Francisco       CA,1.66,Yes,22360,38813,1421287,1653017,Free,Free,2443,4799,261.74
+Philadelphia/Camden PA,San Francisco       CA,1.41,No,27994,38813,4948339,1653017,Free,Free,2523,8081,326.76
+Phoenix             AZ,San Francisco       CA,1.03,No,23025,38813,2753373,1653017,Free,Free,646,14400,85.52
+Seattle/Tacoma      WA,San Francisco       CA,1.02,No,30916,38813,2230831,1653017,Free,Free,676,20727,81.28
+Austin              TX,San Jose            CA,1.17,No,23665,34880,1038660,1594251,Free,Free,1473,4071,200.41
+Boston              MA,San Jose            CA,1.53,No,30124,34880,5787293,1594251,Free,Free,2682,3677,402.02
+Burbank             CA,San Jose            CA,1,No,24706,34880,9056076,1594251,Free,Free,296,10770,59.8
+Chicago             IL,San Jose            CA,1.27,No,29260,34880,7830332,1594251,Controlled,Free,1837,4600,294.18
+Chicago             IL,San Jose            CA,1.27,No,29260,34880,7830332,1594251,Free,Free,1837,4600,294.18
+Dallas/Fort Worth   TX,San Jose            CA,1.12,No,28637,34880,3036732,1594251,Free,Free,1436,4799,325.02
+Denver              CO,San Jose            CA,1.18,No,29055,34880,1862106,1594251,Free,Free,943,4166,263.48
+Las Vegas           NV,San Jose            CA,1.01,Yes,24575,34880,1197234,1594251,Free,Free,387,13378,55.16
+Los Angeles         CA,San Jose            CA,1,No,24706,34880,9056076,1594251,Free,Free,305,26888,58.98
+Phoenix             AZ,San Jose            CA,1.05,No,23025,34880,2753373,1594251,Free,Free,614,10131,92.57
+San Diego           CA,San Jose            CA,1,No,23903,34880,2673620,1594251,Free,Free,419,17034,63.39
+Seattle/Tacoma      WA,San Jose            CA,1.02,No,30916,34880,2230831,1594251,Free,Free,702,15072,63.3
+New York/Newark     NY,Sarasota/Bradenton  FL,1.37,Yes,32991,30460,8621121,528868,Controlled,Free,1042,4028,137.25
+New York/Newark     NY,Sarasota/Bradenton  FL,1.37,Yes,32991,30460,8621121,528868,Controlled,Free,1042,4028,137.25
+New York/Newark     NY,Sarasota/Bradenton  FL,1.37,Yes,32991,30460,8621121,528868,Free,Constrained,1042,4028,137.25
+Anchorage           AK,Seattle/Tacoma      WA,1.02,No,28690,30916,249642,2230831,Free,Free,1443,14474,142.83
+Atlanta             GA,Seattle/Tacoma      WA,1.47,No,26993,30916,3532657,2230831,Free,Free,2182,6124,200.2
+Boston              MA,Seattle/Tacoma      WA,1.59,No,30124,30916,5787293,2230831,Free,Free,2489,4560,297.61
+Burbank             CA,Seattle/Tacoma      WA,1.11,No,24706,30916,9056076,2230831,Free,Free,943,5638,97.46
+Chicago             IL,Seattle/Tacoma      WA,1.25,No,29260,30916,7830332,2230831,Controlled,Free,1731,10343,260.16
+Chicago             IL,Seattle/Tacoma      WA,1.25,No,29260,30916,7830332,2230831,Free,Free,1731,10343,260.16
+Dallas/Fort Worth   TX,Seattle/Tacoma      WA,1.23,No,28637,30916,3036732,2230831,Free,Free,1662,6482,239.66
+Denver              CO,Seattle/Tacoma      WA,1.14,No,29055,30916,1862106,2230831,Free,Free,1028,9760,169.92
+Detroit             MI,Seattle/Tacoma      WA,1.42,No,26506,30916,4459144,2230831,Free,Constrained,1932,2575,285.34
+Las Vegas           NV,Seattle/Tacoma      WA,1.16,Yes,24575,30916,1197234,2230831,Free,Free,869,15887,70.16
+Los Angeles         CA,Seattle/Tacoma      WA,1.08,No,24706,30916,9056076,2230831,Free,Free,957,28988,101.64
+Minneapolis/St Paul MN,Seattle/Tacoma      WA,1.13,No,28739,30916,2761118,2230831,Free,Constrained,1402,6907,186.96
+New York/Newark     NY,Seattle/Tacoma      WA,1.52,No,32991,30916,8621121,2230831,Controlled,Free,2411,10125,289.25
+New York/Newark     NY,Seattle/Tacoma      WA,1.52,No,32991,30916,8621121,2230831,Controlled,Free,2411,10125,289.25
+New York/Newark     NY,Seattle/Tacoma      WA,1.52,No,32991,30916,8621121,2230831,Free,Constrained,2411,10125,289.25
+Oakland             CA,Seattle/Tacoma      WA,1.02,No,29846,30916,2237227,2230831,Free,Free,677,17497,63.06
+Orlando             FL,Seattle/Tacoma      WA,1.88,Yes,22360,30916,1421287,2230831,Free,Free,2553,3183,238.73
+Phoenix             AZ,Seattle/Tacoma      WA,1.22,No,23025,30916,2753373,2230831,Free,Free,1103,13153,110
+Seattle/Tacoma      WA,Spokane             WA,1,No,30916,21300,2230831,403939,Free,Free,225,16507,51.3
+Atlanta             GA,St Louis            MO,1.07,No,26993,25824,3532657,2549844,Free,Free,471,5303,199.8
+Chicago             IL,St Louis            MO,1,No,29260,25824,7830332,2549844,Controlled,Free,257,24362,76.96
+Chicago             IL,St Louis            MO,1,No,29260,25824,7830332,2549844,Free,Free,257,24362,76.96
+Cleveland           OH,St Louis            MO,1.04,No,26046,25824,2230955,2549844,Free,Free,492,5629,77.62
+Dallas/Fort Worth   TX,St Louis            MO,1.06,No,28637,25824,3036732,2549844,Free,Free,556,7478,188.11
+Denver              CO,St Louis            MO,1.08,No,29055,25824,1862106,2549844,Free,Free,785,4186,207.17
+Detroit             MI,St Louis            MO,1.02,No,26506,25824,4459144,2549844,Free,Constrained,447,10298,77.46
+Houston             TX,St Louis            MO,1.03,No,27211,25824,3770125,2549844,Free,Free,682,7785,105.13
+Kansas City         MO,St Louis            MO,1,No,25450,25824,1694803,2549844,Free,Free,244,9784,56.8
+Las Vegas           NV,St Louis            MO,1.28,Yes,24575,25824,1197234,2549844,Free,Free,1379,4971,141.48
+Los Angeles         CA,St Louis            MO,1.28,No,24706,25824,9056076,2549844,Free,Free,1602,6165,210.16
+Minneapolis/St Paul MN,St Louis            MO,1.03,No,28739,25824,2761118,2549844,Free,Constrained,457,4826,202.77
+New York/Newark     NY,St Louis            MO,1.16,No,32991,25824,8621121,2549844,Controlled,Free,877,10816,261.63
+New York/Newark     NY,St Louis            MO,1.16,No,32991,25824,8621121,2549844,Controlled,Free,877,10816,261.63
+New York/Newark     NY,St Louis            MO,1.16,No,32991,25824,8621121,2549844,Free,Constrained,877,10816,261.63
+Orlando             FL,St Louis            MO,1.29,Yes,22360,25824,1421287,2549844,Free,Free,869,6082,142.98
+Phoenix             AZ,St Louis            MO,1.07,No,23025,25824,2753373,2549844,Free,Free,1272,5830,137.2
+New York/Newark     NY,Syracuse            NY,1,No,32991,22069,8621121,743633,Controlled,Free,199,5275,120.84
+New York/Newark     NY,Syracuse            NY,1,No,32991,22069,8621121,743633,Controlled,Free,199,5275,120.84
+New York/Newark     NY,Syracuse            NY,1,No,32991,22069,8621121,743633,Free,Constrained,199,5275,120.84
+Orlando             FL,Syracuse            NY,1.55,Yes,22360,22069,1421287,743633,Free,Free,1054,3861,119.9
+Miami               FL,Tallahassee         FL,1.04,Yes,21207,21002,2105604,258019,Free,Free,399,2789,105.45
+Atlanta             GA,Tampa               FL,1.01,Yes,26993,23654,3532657,2195215,Free,Free,414,17437,87.35
+Boston              MA,Tampa               FL,1.27,Yes,30124,23654,5787293,2195215,Free,Free,1183,10673,124.82
+Chicago             IL,Tampa               FL,1.14,Yes,29260,23654,7830332,2195215,Controlled,Free,1008,17160,127.06
+Chicago             IL,Tampa               FL,1.14,Yes,29260,23654,7830332,2195215,Free,Free,1008,17160,127.06
+Columbus            OH,Tampa               FL,1.55,Yes,24502,23654,125722,2195215,Free,Free,834,4587,106.65
+Dallas/Fort Worth   TX,Tampa               FL,1.13,Yes,28637,23654,3036732,2195215,Free,Free,936,5196,200.69
+Detroit             MI,Tampa               FL,1.17,Yes,26506,23654,4459144,2195215,Free,Constrained,994,10640,107.51
+Fort Lauderdale     FL,Tampa               FL,1,Yes,26752,23654,1440377,2195215,Free,Free,187,13264,46.32
+Hartford            CT,Tampa               FL,1.44,Yes,30268,23654,1106780,2195215,Free,Free,1108,4410,125.25
+Las Vegas           NV,Tampa               FL,1.67,Yes,24575,23654,1197234,2195215,Free,Free,1989,3905,128.97
+Los Angeles         CA,Tampa               FL,1.61,Yes,24706,23654,9056076,2195215,Free,Free,2164,4065,224.21
+Miami               FL,Tampa               FL,1,Yes,21207,23654,2105604,2195215,Free,Free,194,7464,85.62
+New York/Newark     NY,Tampa               FL,1.1,Yes,32991,23654,8621121,2195215,Controlled,Free,1009,27103,123.89
+New York/Newark     NY,Tampa               FL,1.1,Yes,32991,23654,8621121,2195215,Controlled,Free,1009,27103,123.89
+New York/Newark     NY,Tampa               FL,1.1,Yes,32991,23654,8621121,2195215,Free,Constrained,1009,27103,123.89
+Philadelphia/Camden PA,Tampa               FL,1.15,Yes,27994,23654,4948339,2195215,Free,Free,932,8064,122.99
+Pittsburgh          PA,Tampa               FL,1.29,Yes,25054,23654,2374260,2195215,Free,Constrained,874,4715,119.84
+St Louis            MO,Tampa               FL,1.19,Yes,25824,23654,2549844,2195215,Free,Free,865,4749,135.76
+Las Vegas           NV,Tucson              AZ,1.1,Yes,24575,20375,1197234,766956,Free,Free,357,5658,49.77
+Los Angeles         CA,Tucson              AZ,1.05,No,24706,20375,9056076,766956,Free,Free,447,12808,49.02
+San Diego           CA,Tucson              AZ,1.17,No,23903,20375,2673620,766956,Free,Free,358,4307,54.96
+Dallas/Fort Worth   TX,Tulsa               OK,1,No,28637,22956,3036732,754013,Free,Free,239,11479,64.97
+Houston             TX,Tulsa               OK,1.07,No,27211,22956,3770125,754013,Free,Free,444,7782,100.36
+Albuquerque         NM,Washington          DC,1.89,No,22089,31981,668159,4549784,Free,Free,1643,3740,215.57
+Albuquerque         NM,Washington          DC,1.89,No,22089,31981,668159,4549784,Controlled,Free,1643,3740,215.57
+Atlanta             GA,Washington          DC,1.12,No,26993,31981,3532657,4549784,Free,Free,539,23531,166.67
+Atlanta             GA,Washington          DC,1.12,No,26993,31981,3532657,4549784,Controlled,Free,539,23531,166.67
+Boston              MA,Washington          DC,1.04,No,30124,31981,5787293,4549784,Free,Free,400,37715,132.79
+Boston              MA,Washington          DC,1.04,No,30124,31981,5787293,4549784,Controlled,Free,400,37715,132.79
+Chicago             IL,Washington          DC,1.09,No,29260,31981,7830332,4549784,Controlled,Free,591,27713,145.61
+Chicago             IL,Washington          DC,1.09,No,29260,31981,7830332,4549784,Controlled,Free,591,27713,145.61
+Chicago             IL,Washington          DC,1.09,No,29260,31981,7830332,4549784,Free,Free,591,27713,145.61
+Chicago             IL,Washington          DC,1.09,No,29260,31981,7830332,4549784,Controlled,Free,591,27713,145.61
+Columbus            OH,Washington          DC,1.07,No,24502,31981,125722,4549784,Free,Free,310,6583,100.95
+Columbus            OH,Washington          DC,1.07,No,24502,31981,125722,4549784,Controlled,Free,310,6583,100.95
+Dallas/Fort Worth   TX,Washington          DC,1.16,No,28637,31981,3036732,4549784,Free,Free,1185,14398,256.86
+Dallas/Fort Worth   TX,Washington          DC,1.16,No,28637,31981,3036732,4549784,Controlled,Free,1185,14398,256.86
+Denver              CO,Washington          DC,1.33,No,29055,31981,1862106,4549784,Free,Free,1470,12410,240.48
+Denver              CO,Washington          DC,1.33,No,29055,31981,1862106,4549784,Controlled,Free,1470,12410,240.48
+Detroit             MI,Washington          DC,1.08,No,26506,31981,4459144,4549784,Free,Constrained,391,7833,205.96
+Detroit             MI,Washington          DC,1.08,No,26506,31981,4459144,4549784,Controlled,Constrained,391,7833,205.96
+Fort Lauderdale     FL,Washington          DC,1.31,Yes,26752,31981,1440377,4549784,Free,Free,896,5935,127.67
+Fort Lauderdale     FL,Washington          DC,1.31,Yes,26752,31981,1440377,4549784,Controlled,Free,896,5935,127.67
+Hartford            CT,Washington          DC,1.04,No,30268,31981,1106780,4549784,Free,Free,315,7688,117.35
+Hartford            CT,Washington          DC,1.04,No,30268,31981,1106780,4549784,Controlled,Free,315,7688,117.35
+Houston             TX,Washington          DC,1.36,No,27211,31981,3770125,4549784,Free,Free,1213,4708,297.2
+Houston             TX,Washington          DC,1.36,No,27211,31981,3770125,4549784,Controlled,Free,1213,4708,297.2
+Kansas City         MO,Washington          DC,1.42,No,25450,31981,1694803,4549784,Free,Free,935,5252,182.56
+Kansas City         MO,Washington          DC,1.42,No,25450,31981,1694803,4549784,Controlled,Free,935,5252,182.56
+Los Angeles         CA,Washington          DC,1.33,No,24706,31981,9056076,4549784,Free,Free,2300,20007,303.82
+Los Angeles         CA,Washington          DC,1.33,No,24706,31981,9056076,4549784,Controlled,Free,2300,20007,303.82
+Miami               FL,Washington          DC,1.15,Yes,21207,31981,2105604,4549784,Free,Free,924,9176,147.8
+Miami               FL,Washington          DC,1.15,Yes,21207,31981,2105604,4549784,Controlled,Free,924,9176,147.8
+Minneapolis/St Paul MN,Washington          DC,1.19,No,28739,31981,2761118,4549784,Free,Constrained,916,8215,235.1
+Minneapolis/St Paul MN,Washington          DC,1.19,No,28739,31981,2761118,4549784,Controlled,Constrained,916,8215,235.1
+New Orleans         LA,Washington          DC,1.46,No,22038,31981,1308499,4549784,Free,Free,956,6208,164.3
+New Orleans         LA,Washington          DC,1.46,No,22038,31981,1308499,4549784,Controlled,Free,956,6208,164.3
+New York/Newark     NY,Washington          DC,1,No,32991,31981,8621121,4549784,Controlled,Free,217,63690,114.35
+New York/Newark     NY,Washington          DC,1,No,32991,31981,8621121,4549784,Controlled,Free,217,63690,114.35
+New York/Newark     NY,Washington          DC,1,No,32991,31981,8621121,4549784,Controlled,Free,217,63690,114.35
+New York/Newark     NY,Washington          DC,1,No,32991,31981,8621121,4549784,Controlled,Free,217,63690,114.35
+New York/Newark     NY,Washington          DC,1,No,32991,31981,8621121,4549784,Free,Constrained,217,63690,114.35
+New York/Newark     NY,Washington          DC,1,No,32991,31981,8621121,4549784,Controlled,Constrained,217,63690,114.35
+Orlando             FL,Washington          DC,1.15,Yes,22360,31981,1421287,4549784,Free,Free,760,14683,125.8
+Orlando             FL,Washington          DC,1.15,Yes,22360,31981,1421287,4549784,Controlled,Free,760,14683,125.8
+Phoenix             AZ,Washington          DC,1.58,No,23025,31981,2753373,4549784,Free,Free,1970,5190,279.83
+Phoenix             AZ,Washington          DC,1.58,No,23025,31981,2753373,4549784,Controlled,Free,1970,5190,279.83
+San Diego           CA,Washington          DC,1.57,No,23903,31981,2673620,4549784,Free,Free,2259,6724,273.83
+San Diego           CA,Washington          DC,1.57,No,23903,31981,2673620,4549784,Controlled,Free,2259,6724,273.83
+San Francisco       CA,Washington          DC,1.37,No,38813,31981,1653017,4549784,Free,Free,2428,17938,347.82
+San Francisco       CA,Washington          DC,1.37,No,38813,31981,1653017,4549784,Controlled,Free,2428,17938,347.82
+Seattle/Tacoma      WA,Washington          DC,1.55,No,30916,31981,2230831,4549784,Free,Free,2317,7614,281.06
+Seattle/Tacoma      WA,Washington          DC,1.55,No,30916,31981,2230831,4549784,Controlled,Free,2317,7614,281.06
+St Louis            MO,Washington          DC,1.14,No,25824,31981,2549844,4549784,Free,Free,699,4957,258.37
+St Louis            MO,Washington          DC,1.14,No,25824,31981,2549844,4549784,Controlled,Free,699,4957,258.37
+Tampa               FL,Washington          DC,1.24,Yes,23654,31981,2195215,4549784,Free,Free,815,8413,132.94
+Tampa               FL,Washington          DC,1.24,Yes,23654,31981,2195215,4549784,Controlled,Free,815,8413,132.94
+Atlanta             GA,West Palm Beach     FL,1.01,Yes,26993,37375,3532657,991717,Free,Free,546,7788,104.11
+Boston              MA,West Palm Beach     FL,1.32,Yes,30124,37375,5787293,991717,Free,Free,1193,8170,127.83
+Chicago             IL,West Palm Beach     FL,1.26,Yes,29260,37375,7830332,991717,Controlled,Free,1134,5449,145.53
+Chicago             IL,West Palm Beach     FL,1.26,Yes,29260,37375,7830332,991717,Free,Free,1134,5449,145.53
+Hartford            CT,West Palm Beach     FL,1.36,Yes,30268,37375,1106780,991717,Free,Free,1125,5243,130.15
+New York/Newark     NY,West Palm Beach     FL,1.08,Yes,32991,37375,8621121,991717,Controlled,Free,1030,34324,129.63
+New York/Newark     NY,West Palm Beach     FL,1.08,Yes,32991,37375,8621121,991717,Controlled,Free,1030,34324,129.63
+New York/Newark     NY,West Palm Beach     FL,1.08,Yes,32991,37375,8621121,991717,Free,Constrained,1030,34324,129.63
+Philadelphia/Camden PA,West Palm Beach     FL,1.17,Yes,27994,37375,4948339,991717,Free,Free,960,6016,124.87
+Washington          DC,West Palm Beach     FL,1.28,Yes,31981,37375,4549784,991717,Free,Free,858,4877,129.62
+Washington          DC,West Palm Beach     FL,1.28,Yes,31981,37375,4549784,991717,Controlled,Free,858,4877,129.62
