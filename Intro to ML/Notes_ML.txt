@@ -1,0 +1,107 @@
+Imagenet example of 2012 -> 84% accuracy
+
+Multi class eg: Customer support department. Why are customers calling your store?
+
+Private data - Customer log files, customer invoice databases
+Commercial data - Data collected and made available by certain organizations
+Reuters, Change Healthcare, Dun and Bradsteet and Foursquare, Nielson
+They contain curated news stories, anonymous healthcare transactions, global business records and location data
+Open source data - For research and teaching purpose
+AWS, Kaggle and UCI ML repo, Govt and health org are other source of data that can be useful
+
+Data is representative - In credit card fraudulent problem, we need both fraudulent and non fraudulent types of data 
+
+Storing data in AWS:
+S3 - It provides object level storage
+We can store as much data as you want in the form of object. eg files in csv or other formats
+It can be accessed by web based AWS management console
+Can also be accessed programmatically thru api and sdks or third party solutions (which also use api or sdks)
+
+Amazon FSx:
+If data is already in S3, and planning to run training jobs several times with diff algo and parameters, we can use FSx for Lustre
+It's a file system service that speeds up the training jobb by serving your S3 data to Amazon Sagemaker at high speed
+
+Amazon EFS:
+It's similar to FSx
+Data can also in EFS. If so, it's recommeded to use EFS as the data source for training data.
+Because it can launch the training jobs from service without needing the data movement, resulting in fast training start times.
+When data scientist have home directory in EFS, they can quickly iterate on the models by bringing in new data, share data with colleagues and experiment with different fields
+
+Amazon RDS:
+Managed database service. One of the Amazon resources where we can find data
+
+Amazon Redshift:
+Managed data warehouse service
+
+Amazon Timestream:
+Managed TS database designed specifically to handle large data from IOT
+
+Amazon EC2 - Elastic Compute Cloud:
+We can host our own database on these instances
+
+ETL:
+Data is loaded in the repository such as Amazon S3
+
+
+Understand your data:
+Amazon Sagemaker uses csv for analysis
+Domain knowledge is important Eg: Know the relationship b/w symptoms vs disease for developing the model
+For text, there are different ways to convert. Can be done most in NLP
+
+
+Desc stats:
+Get valuable insight into the data for effectively preprocess the data for ML model
+Attribute stats - for numerical M5
+Multi variate - (Corr) - for 2 or more than 2 variables
+Be careful about corr between attributes - High corr between attributes can sometimes lead to poor model performance
+As a result, model loss might not converge to a min state
+
+Imbalance data - Only tenth of a percent is labelled as fraud, in this case the model might not learn well about the fraud txns
+
+Histogram - Overall behaviour of a feature. Eg Normally distribute? Skewed? How many peaks?
+Density plot or box - For numerical features. Eg peak or range of data? Outliers? etc
+
+Corr - How can we quantify the linear relationship among the variables as we're seeing in the scatter plot? By corr matrix
+
+Feature selection and extraction:
+2 things that make a model successful
+
+Feature selection - Choose most relevant and discard the rest. Prevent redundency or irrelevance in features.
+Also can be used to limit features to prevent overfitting
+
+Feature extraction - Builds valuable information from raw data by reformatting, combining and tranforming primary features into new ones
+
+Cleaning data - Normalization, split (eg: Safe high maintenance), Imputation (KNN impute, soft impute etc)
+Regardless of how the data ended up being missed, it's important to deal with this issue
+Need human intelligence to handle missing values
+
+Outliers - Boxplot (univariate outlier), scatterplot (Multi variate outliers)
+The origin of the outlier will mostly likelyi inform how we deal with outliers
+
+Delete - if incorrect data
+Transform - By taking natural log of the variable
+Impute - to replace the outlier values
+
+Feature selection:
+Filter - By looking at the corr (Doesn't assume relationship between the features and outcome)
+Wrapper - Based on the outcome of the model (Use predictive model to score the feature subsets)
+Embedded - Combine the quality of both filter and wrapper (algorithm specific)
+
+LDA - Linear combination of features that sepearates 2 or more classes (Dimensionality reduction)
+ANOVA - Analyse the differences among group means in a sample
+Chi square -  A single number that gives how much diff exist between observed count and count we expect if there are absolutely no relationship in the population
+
+Filter can also be assumed as a pre processing step for wrapper
+In wrapper, each subset is taken and tested on a hold out set
+
+Training:
+Sagemaker doesn't require header record and target is in first column
+Evaluating the model with the same data that it trained on, will lead to overfitting
+Overfitting is basically memorizing the training data rather than learning the relationships between the features and labels 
+(to apply that to new data in future)
+K fold for usually very small dataset to utilize as much of data as possible
+Shuffle - stratify the sample in train_test_split
+
+Deployment - Provide inference securely and with low latency
+After deploying in production, we should monitor the production data and retrain the model if necessary
+Deployment is not a one time exercise, instead it's a continuous process
