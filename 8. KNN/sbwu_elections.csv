@@ -1,0 +1,77 @@
+Store,Location,State,RTWState,VoteCountDate,VotesYes,VotesNo,VoteTotal,Margin,Result
+Camp Road Hamburg,"Buffalo, NY",NY,No,12/9/2021,8,12,20,-0.20,No
+Genessee St,"Buffalo, NY",NY,No,12/9/2021,15,9,24,0.25,Yes
+Elmwood,"Buffalo, NY",NY,No,12/9/2021,19,8,27,0.41,Yes
+Power & Baseline Road,"Mesa, AZ",AZ,Yes,2/25/2022,25,3,28,0.79,Yes
+Sheridan & Bailey,"Buffalo, NY",NY,No,3/9/2022,15,12,27,0.11,Yes
+Transit Commons / Depew,"Buffalo, NY",NY,No,3/9/2022,15,12,27,0.11,Yes
+Broadway & Denny,"Seattle, WA",WA,No,3/22/2022,9,0,9,1.00,Yes
+Crismon & Southern,"Mesa, AZ",AZ,Yes,3/25/2022,11,3,14,0.57,Yes
+I-75 at Merchant Drive,"Knoxville, TN",TN,Yes,3/29/2022,8,7,15,0.07,Yes
+New York Reserve Roastery,"New York, NY",NY,No,4/1/2022,46,36,82,0.12,Yes
+Brighton Monroe & Clover,"Rochester, NY",NY,No,4/7/2022,10,3,13,0.54,Yes
+Mount Hope Ave,"Rochester, NY",NY,No,4/7/2022,13,11,24,0.08,Yes
+Delaware & Chippewa,"Buffalo, NY",NY,No,4/7/2022,18,1,19,0.89,Yes
+Overland Park - 75th & I-35,"Overland Park, KS",KS,Yes,4/8/2022,6,1,7,0.71,Yes
+Meadow St,"Ithaca, NY",NY,No,4/8/2022,13,1,14,0.86,Yes
+Commons,"Ithaca, NY",NY,No,4/8/2022,15,1,16,0.88,Yes
+College Ave,"Ithaca, NY",NY,No,4/8/2022,19,1,20,0.90,Yes
+Commonwealth Ave,"Boston, MA",MA,No,4/11/2022,11,0,11,1.00,Yes
+Harvard St,"Boston, MA",MA,No,4/11/2022,14,0,14,1.00,Yes
+29th & Willamette,"Eugene, OR",OR,No,4/13/2022,17,0,17,1.00,Yes
+"Bloomfield, Liberty Ave","Pittsburgh, PA",PA,No,4/13/2022,20,0,20,1.00,Yes
+Huntsman Square,"Springfield, VA",VA,Yes,4/14/2022,8,10,18,-0.11,No
+Huguenot Village Shopping Center,"Richmond, VA",VA,Yes,4/19/2022,11,2,13,0.69,Yes
+Westchester Commons,"Midlothian, VA",VA,Yes,4/19/2022,13,8,21,0.24,Yes
+Forest Hill Ave,"Richmond, VA",VA,Yes,4/19/2022,17,1,18,0.89,Yes
+Broad and Willow Lawn,"Richmond, VA",VA,Yes,4/19/2022,19,0,19,1.00,Yes
+Midlothian & Carmia Way,"Richmond, VA",VA,Yes,4/19/2022,22,3,25,0.76,Yes
+Palm Springs Mile,"Hialeah, FL",FL,Yes,4/20/2022,12,14,26,-0.08,No
+Starbucks Reserve Roastery,"Seattle, WA",WA,No,4/21/2022,38,27,65,0.17,Yes
+Walden & Anderson,"Buffalo, NY",NY,No,4/22/2022,10,10,20,0.00,No
+8th Ave & 49th St,"Miami, FL",FL,Yes,4/22/2022,13,14,27,-0.04,No
+Rock Creek Parkway,"Superior, CO",CO,No,4/22/2022,12,2,14,0.71,Yes
+Gallows and Gatehouse,"Falls Church, VA",VA,Yes,4/22/2022,30,2,32,0.88,Yes
+Leesburg Plaza,"Leesburg, VA",VA,Yes,4/23/2022,24,1,25,0.92,Yes
+N Charles St,"Baltimore, MD",MD,No,4/25/2022,14,0,14,1.00,Yes
+Hopewell,"Pennington, NJ",NJ,No,4/25/2022,15,0,15,1.00,Yes
+University & Main,"Peoria, IL",IL,No,4/26/2022,9,2,11,0.64,Yes
+Northwest Hwy & Feinberg Drive,"Cary, IL",IL,No,4/26/2022,17,4,21,0.62,Yes
+300 Snelling,"St. Paul, MN",MN,No,4/27/2022,14,1,15,0.87,Yes
+Howell & Puetz,"Oak Creek, WI",WI,Yes,4/27/2022,15,8,23,0.30,Yes
+Oakway Mall,"Eugene, OR",OR,No,4/28/2022,4,7,11,-0.27,No
+Delta & Green Acres,"Eugene, OR",OR,No,4/28/2022,10,1,11,0.82,Yes
+7th & Washington,"Eugene, OR",OR,No,4/28/2022,12,1,13,0.85,Yes
+Franklin & Villard,"Eugene, OR",OR,No,4/28/2022,17,0,17,1.00,Yes
+U of O Erb Memorial Student Union,"Eugene, OR",OR,No,4/28/2022,19,0,19,1.00,Yes
+Augusta Exchange,"Augusta, GA",GA,Yes,4/28/2022,26,5,31,0.68,Yes
+Astor Place / Lafayette & 8th St,"New York, NY",NY,No,4/29/2022,11,2,13,0.69,Yes
+Holman Rd,"Seattle, WA",WA,No,4/29/2022,11,1,12,0.83,Yes
+Cooper Point Village,"Olympia, WA",WA,No,4/29/2022,19,2,21,0.81,Yes
+Pride Drive & Blowing Rock Road,"Boone, NC",NC,Yes,4/30/2022,33,2,35,0.89,Yes
+Summit,"Summit, NJ",NJ,No,5/2/2022,7,3,10,0.40,Yes
+1087 White Horse Ave,"Hamilton, NJ",NJ,No,5/2/2022,8,3,11,0.45,Yes
+47th and Cedar,"Minneapolis, MN",MN,No,5/2/2022,11,3,14,0.57,Yes
+Wake Forest Rd and Six Forks Rd,"Raleigh, NC",NC,Yes,5/3/2022,5,7,12,-0.17,No
+The Gardens,"Great Neck Plaza, NY",NY,No,5/3/2022,5,6,11,-0.09,No
+Beth Israel,"Boston, MA",MA,No,5/3/2022,5,0,5,1.00,Yes
+Allston Continuum,"Boston, MA",MA,No,5/3/2022,7,0,7,1.00,Yes
+Cleveland Circle,"Boston, MA",MA,No,5/3/2022,8,2,10,0.60,Yes
+Watertown - Mt. Auburn,"Watertown, MA",MA,No,5/3/2022,10,1,11,0.82,Yes
+2003 S. Main St,"Farmville, VA",VA,Yes,5/3/2022,12,3,15,0.60,Yes
+John Knox & N. Monroe St,"Tallahassee, FL",FL,Yes,5/3/2022,16,1,17,0.88,Yes
+Ceasar's Bay Shopping Center,"Brooklyn, NY",NY,No,5/3/2022,17,0,17,1.00,Yes
+Massapequa Village Square,"Massapequa, NY",NY,No,5/3/2022,19,8,27,0.41,Yes
+McDill & Crossroads,"Plover, WI",WI,Yes,5/4/2022,7,5,12,0.17,Yes
+7th Street & Bell,"Phoenix, AZ",AZ,Yes,5/5/2022,7,6,13,0.08,Yes
+West 11th & Acorn Park,"Eugene, OR",OR,No,5/5/2022,7,2,9,0.56,Yes
+Valley River Drive,"Eugene, OR",OR,No,5/5/2022,10,3,13,0.54,Yes
+Indian School & 107th Ave,"Avondale, AZ",AZ,Yes,5/5/2022,17,3,20,0.70,Yes
+Downtown La Grange,"La Granga, IL",IL,No,5/6/2022,6,9,15,-0.20,No
+Ben Hill Griffin Parkway,"Estero, FL",FL,Yes,5/6/2022,11,21,32,-0.31,No
+Amos Hall,"Pittsburgh, PA",PA,No,5/6/2022,10,3,13,0.54,Yes
+52 Curtiss Pkwy,"Miami Springs, FL",FL,Yes,5/10/2022,10,3,13,0.54,Yes
+1980 Can Marco Blvd,"Jacksonville, FL",FL,Yes,5/10/2022,8,1,9,0.78,Yes
+1700 W Nursery Road,"Linthicum, MD",MD,No,5/10/2022,15,2,17,0.76,Yes
+San Jose Blvd & Ricky Drive,"Jacksonville, FL",FL,Yes,5/10/2022,10,7,17,0.18,Yes
+E Colfax Ave,"Denver, CO",CO,No,5/10/2022,13,0,13,1.00,Yes
