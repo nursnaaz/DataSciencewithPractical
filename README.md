@@ -6,3 +6,5 @@ Learn Statistics, Probablity, Python from scratch, Machine Learning, DeepLearnin
 3. Python statements, functions etc.  - Mohamed Imran - Week 02/12 - 02/13
 4. Python contents iterators, generators, decorators etc. - Mohamed Imran - Week 02/19 - 02/20 
 5. Numpy operations - Mohamed Imran - Week 02/6 - 02/27
+6. Linear Regression - Introduction to Linear Regression - Linear Algebra - Week 05/21
+7. Linear Regression - Derivative - Application of Derivative - Week 05/22
