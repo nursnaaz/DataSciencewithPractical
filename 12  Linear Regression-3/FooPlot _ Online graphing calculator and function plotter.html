@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<!-- saved from url=(0290)http://www.fooplot.com/#W3sidHlwZSI6MCwiZXEiOiJ4XjIrMngrMiIsImNvbG9yIjoiIzAwMDAwMCJ9LHsidHlwZSI6MCwiZXEiOiIyeCsyIiwiY29sb3IiOiIjMDAwMDAwIn0seyJ0eXBlIjoxMDAwLCJ3aW5kb3ciOlsiLTEzLjI4MTI0OTk5OTk5OTk5IiwiMTIuMTA5Mzc0OTk5OTk5OTkiLCItNC4xNDA2MjQ5OTk5OTk5OTY0IiwiMTEuNDg0Mzc0OTk5OTk5OTkxIl19XQ-%2D -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>FooPlot | Online graphing calculator and function plotter</title>
+<meta http-equiv="Content-Language" content="en-US">
+
+<link rel="stylesheet" href="./FooPlot _ Online graphing calculator and function plotter_files/fooplot.css" type="text/css" charset="utf-8">
+<link type="text/css" href="./FooPlot _ Online graphing calculator and function plotter_files/jquery-ui-1.8.20.custom.css" rel="stylesheet">
+<link rel="stylesheet" href="./FooPlot _ Online graphing calculator and function plotter_files/jquery.ui.selectmenu.css" type="text/css" charset="utf-8">
+<link rel="stylesheet" href="./FooPlot _ Online graphing calculator and function plotter_files/jquery.miniColors.css" type="text/css" charset="utf-8">
+<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/hhomalbbfiopkmhbaffiidabldapkhoe">
+<script src="./FooPlot _ Online graphing calculator and function plotter_files/f.txt"></script><script src="./FooPlot _ Online graphing calculator and function plotter_files/f(1).txt"></script><script src="./FooPlot _ Online graphing calculator and function plotter_files/f(2).txt"></script><script id="twitter-wjs" src="./FooPlot _ Online graphing calculator and function plotter_files/widgets.js"></script><script src="./FooPlot _ Online graphing calculator and function plotter_files/f(3).txt" id="google_shimpl"></script><script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/jquery-ui-1.8.20.custom.min.js"></script>
+<script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/jquery.ui.selectmenu.js"></script>
+<script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/jquery.miniColors.min.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="js/excanvas.compiled.js"></script><![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="js/json2.js"></script><![endif]-->
+<script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/fooplot.js" charset="utf-8"></script>
+<script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/base64.js"></script>
+<script type="text/javascript">
+<!--
+$(function(){
+  $('.nodrag').mousedown(function(event){event.preventDefault();});
+});
+// -->
+</script>
+<meta http-equiv="origin-trial" content="AzoawhTRDevLR66Y6MROu167EDncFPBvcKOaQispTo9ouEt5LvcBjnRFqiAByRT+2cDHG1Yj4dXwpLeIhc98/gIAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A6+nc62kbJgC46ypOwRsNW6RkDn2x7tgRh0wp7jb3DtFF7oEhu1hhm4rdZHZ6zXvnKZLlYcBlQUImC4d3kKihAcAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A/9La288e7MDEU2ifusFnMg1C2Ij6uoa/Z/ylwJIXSsWfK37oESIPbxbt4IU86OGqDEPnNVruUiMjfKo65H/CQwAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AzoawhTRDevLR66Y6MROu167EDncFPBvcKOaQispTo9ouEt5LvcBjnRFqiAByRT+2cDHG1Yj4dXwpLeIhc98/gIAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A6+nc62kbJgC46ypOwRsNW6RkDn2x7tgRh0wp7jb3DtFF7oEhu1hhm4rdZHZ6zXvnKZLlYcBlQUImC4d3kKihAcAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A/9La288e7MDEU2ifusFnMg1C2Ij6uoa/Z/ylwJIXSsWfK37oESIPbxbt4IU86OGqDEPnNVruUiMjfKo65H/CQwAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><link rel="preload" href="./FooPlot _ Online graphing calculator and function plotter_files/f(4).txt" as="script"><script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/f(4).txt"></script><link rel="preload" href="./FooPlot _ Online graphing calculator and function plotter_files/f(5).txt" as="script"><script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/f(5).txt"></script><script charset="utf-8" src="./FooPlot _ Online graphing calculator and function plotter_files/button.e878ad6ba18f0bdda53d6861059b0edd.js"></script><meta http-equiv="origin-trial" content="AzoawhTRDevLR66Y6MROu167EDncFPBvcKOaQispTo9ouEt5LvcBjnRFqiAByRT+2cDHG1Yj4dXwpLeIhc98/gIAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A6+nc62kbJgC46ypOwRsNW6RkDn2x7tgRh0wp7jb3DtFF7oEhu1hhm4rdZHZ6zXvnKZLlYcBlQUImC4d3kKihAcAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A/9La288e7MDEU2ifusFnMg1C2Ij6uoa/Z/ylwJIXSsWfK37oESIPbxbt4IU86OGqDEPnNVruUiMjfKo65H/CQwAAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjYxMjk5MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><link rel="preload" href="./FooPlot _ Online graphing calculator and function plotter_files/f(4).txt" as="script"><script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/f(4).txt"></script><link rel="preload" href="./FooPlot _ Online graphing calculator and function plotter_files/f(5).txt" as="script"><script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/f(5).txt"></script><link rel="preload" href="./FooPlot _ Online graphing calculator and function plotter_files/f(4).txt" as="script"><script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/f(4).txt"></script><link rel="preload" href="./FooPlot _ Online graphing calculator and function plotter_files/f(5).txt" as="script"><script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/f(5).txt"></script></head><body data-new-gr-c-s-check-loaded="14.1062.0" data-gr-ext-installed="" style="padding: 0px 0px 120px;">
+<table style="margin-bottom:20px;" cellspacing="0" cellpadding="0"><tbody><tr><td valign="top" style="border-right:1px solid #d0d0d0;width:194px;">
+<div><img class="noselect nodrag" src="./FooPlot _ Online graphing calculator and function plotter_files/logo3.png" width="188" height="65"></div>
+<div style="padding-top:4px;font-size:11px;text-align:left;">
+<a href="http://www.fooplot.com/"><b>plot</b></a>
+·
+<a href="http://www.fooplot.com/faq"><b>faq</b></a>
+·
+<a href="http://www.fooplot.com/contact"><b>comments</b></a>
+</div>
+</td><td valign="top" style="padding-left:8px;padding-top:8px;">
+<div style="padding-left:1px;">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-1967794657116291";
+/* fooplot.top */
+google_ad_slot = "6726911214";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/f(6).txt">
+</script><ins id="aswift_0_expand" style="display:inline-table;border:none;margin:0;padding:0;position:relative;visibility:visible;background-color:transparent;width:728px;height:90px;" data-ad-slot="6726911214" tabindex="0" title="Advertisement" aria-label="Advertisement" data-ad-status="filled"><ins id="aswift_0_anchor" style="display:block;border:none;margin:0;padding:0;position:relative;visibility:visible;background-color:transparent;width:728px;height:90px;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:728px;height:90px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./FooPlot _ Online graphing calculator and function plotter_files/ads.html" data-google-container-id="a!1" data-google-query-id="CPrp57vPgPgCFeBmFQgdAfoDSQ" data-load-complete="true"></iframe></ins></ins>
+</div>
+</td></tr>
+</tbody></table>
+<noscript>Online function plotter / graphing calculator with root and intersection finding, easy scrolling, and exporting features.</noscript>
+<script type="text/javascript">
+
+function checkEnter(event) {
+  var keynum;
+  var keychar;
+  var enttest;
+  if (window.event && window.event.srcElement.onchange) {
+    keynum = window.event.keyCode;
+    if(keynum==13) {
+      window.event.returnValue=false;
+      window.event.srcElement.onchange();
+      window.event.srcElement.focus();
+    }
+  }
+}
+
+var theplot;
+$(document).ready(function(){
+  $('#fooplot-frame').resizable({
+    resize:function(){ theplot.setSize(); theplot.reDraw(); $('#_resizable_display').html(parseInt($(this).css('width'))+' x '+parseInt($(this).css('height'))); },
+    start:function(){$(this).append('<div id="_resizable_display" style="position:absolute;top:50%;left:50%;z-index:10000;background:#ffffff;font-size:14px;color:#a0a0a0;border:2px solid #c0c0c0;text-align:center;padding:4px;width:80px;height:18px;margin-left:-44px;margin-top:-14px;"></div>');},
+    stop:function(){$('#_resizable_display').remove(); writeState();},
+    grid:50,
+    minWidth:300,
+    minHeight:200
+  });
+  $('.sortable').sortable({
+    stop:function() { writeState(); }
+  });
+  $('.button').button().css({'font-size':'11px','height':'27px'});
+  $('.button-makewindowsquare').button({'icons':{primary:'ui-icon-arrowthick-1-s'}}).css({'width':'32px','padding-top':'3px','padding-bottom':'3px'});
+  $('.selectmenu').selectmenu();
+
+  theplot=new Fooplot(document.getElementById('theplot'));
+  theplot.reDraw();
+
+  theplot.onWindowChange=function(w) {
+    $('#options-xmin').val(w[0]);
+    $('#options-xmax').val(w[1]);
+    $('#options-ymin').val(w[2]);
+    $('#options-ymax').val(w[3]);
+    writeState();
+  };
+
+  if(window.location.hash==''||window.location.hash=='#'||window.location.hash=='#!') {
+    $('<li class="plot ui-widget-content">'+$('#plot_template_0').html()+'</li>').data($('#plot_template_0').data()).appendTo('#plots').find('.data-color').miniColors({change:changeColorTimeout});
+    writeState();
+    doPlot();
+  } else {
+    readStateFromHash();
+    doPlot();
+  }
+  $('.colorpicker').miniColors({change:changeColorTimeout});
+
+});
+
+var changeColorTimeout_t=null;
+
+function changeColorTimeout() {
+  if(changeColorTimeout_t) {window.clearTimeout(changeColorTimeout_t);changeColorTimeout_t=null; }
+  changeColorTimeout_t=window.setTimeout(function(){writeState();doPlot();},500);
+}
+
+var _ignoreHashChange=false;
+window.onhashchange=function() {
+  if(!_ignoreHashChange) {
+    readStateFromHash();
+    doPlot();
+  } else {
+    _ignoreHashChange=false;
+  }
+}
+
+function makeWindowSquare() {
+  var ycenter=(theplot.ymax+theplot.ymin)/2;
+  var xhalfspan=(theplot.xmax-theplot.xmin)/2;
+  var ratio=theplot.height/theplot.width;
+  $('#options-ymax').val(ycenter+xhalfspan*ratio);
+  $('#options-ymin').val(ycenter-xhalfspan*ratio);
+  writeState();
+  doPlot();
+}
+
+function doPlot() {
+  theplot.deleteAllPlots();
+  // set options
+  theplot.setBackgroundColor($('#options-bgcolor').val());
+  theplot.setAxesColor($('#options-axescolor').val());
+  theplot.setGridColor($('#options-gridcolor').val());
+  theplot.setLabelsColor($('#options-labelscolor').val());
+  theplot.setWindow([$('#options-xmin').val(),$('#options-xmax').val(),$('#options-ymin').val(),$('#options-ymax').val()]);
+  theplot.setGrid([$('#options-xgrid').val(),$('#options-ygrid').val()]);
+  theplot.setShowAxes($('#options-showaxes').is(':checked'));
+  theplot.setShowTicks($('#options-showticks').is(':checked'));
+  theplot.setShowGrid($('#options-showgrid').is(':checked'));
+  theplot.setShowLabels($('#options-showlabels').is(':checked'));
+  // add the plots
+  $('#plots').children('li').each(function () {
+    switch(parseInt($(this).data('type'))) {
+      case FOOPLOT_TYPE_FUNCTION:
+        theplot.addPlot($(this).children('.data-eq').val(),FOOPLOT_TYPE_FUNCTION,{'color':$(this).find('.data-color').val()});
+        break;
+      case FOOPLOT_TYPE_POLAR:
+        theplot.addPlot($(this).children('.data-eq').val(),FOOPLOT_TYPE_POLAR,{'color':$(this).find('.data-color').val(),'thetamin':$(this).children('.data-thetamin').val(),'thetamax':$(this).children('.data-thetamax').val(),'thetastep':$(this).children('.data-thetastep').val()});
+        break;
+      case FOOPLOT_TYPE_PARAMETRIC:
+        theplot.addPlot([$(this).children('.data-eqx').val(),$(this).children('.data-eqy').val()],FOOPLOT_TYPE_PARAMETRIC,{'color':$(this).find('.data-color').val(),'smin':$(this).children('.data-smin').val(),'smax':$(this).children('.data-smax').val(),'sstep':$(this).children('.data-sstep').val()});
+        break;
+      case FOOPLOT_TYPE_POINTS:
+        lines=$(this).find('.data-eq').val().split(/\n/);
+        points=[];
+        for(i in lines) {
+          coords=lines[i].split(',');
+          if(coords.length==2) points.push([coords[0],coords[1]]);
+        }
+        theplot.addPlot(points,FOOPLOT_TYPE_POINTS,{'color':$(this).find('.data-color').val()});
+        break;
+    }
+  });
+  theplot.reDraw();
+}
+
+var plotState=[];
+
+function doPermalink() {
+  jQuery.post('link-create','data='+escape(JSON.stringify(plotState)).replace(/\+/g,'%2B'),function(response,status,xhr) {
+    $("#dialog-permalink").html('<div style="padding-top:15px;padding-bottom:15px;">Permalink to this graph:<br><a href="http://fooplot.com/plot/'+response+'"><b>http://fooplot.com/plot/'+response+'</b></a></div>').dialog({modal:true,width:500,title:'Permalink'});
+  });
+}
+
+function rgb2hex(rgb) {
+ if(rgb==undefined || !rgb.indexOf) return '#000000';
+ if(rgb.indexOf('#')==0) return rgb;
+ rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+ return "#" +
+  ("0" + parseInt(rgb[1],10).toString(16)).slice(-2) +
+  ("0" + parseInt(rgb[2],10).toString(16)).slice(-2) +
+  ("0" + parseInt(rgb[3],10).toString(16)).slice(-2);
+}
+
+function writeState() {
+  var hashData=[];
+  var hashElement={};
+  $('#plots').children('li').each(function () {
+    hashElement={};
+    switch(parseInt($(this).data('type'))) {
+      case FOOPLOT_TYPE_FUNCTION:
+        hashElement['type']=FOOPLOT_TYPE_FUNCTION;
+        hashElement['eq']=$(this).children('.data-eq').val().replace(/ /g,'');
+        hashElement['color']=rgb2hex($(this).find('.data-color').val());
+        hashData.push(hashElement);
+        break;
+      case FOOPLOT_TYPE_POLAR:
+        hashElement['type']=FOOPLOT_TYPE_POLAR;
+        hashElement['eq']=$(this).children('.data-eq').val().replace(/ /g,'');
+        hashElement['color']=$(this).find('.data-color').val();
+        hashElement['thetamin']=$(this).children('.data-thetamin').val();
+        hashElement['thetamax']=$(this).children('.data-thetamax').val();
+        hashElement['thetastep']=$(this).children('.data-thetastep').val();
+        hashData.push(hashElement);
+        break;
+      case FOOPLOT_TYPE_PARAMETRIC:
+        hashElement['type']=FOOPLOT_TYPE_PARAMETRIC;
+        hashElement['eqx']=$(this).children('.data-eqx').val().replace(/ /g,'');
+        hashElement['eqy']=$(this).children('.data-eqy').val().replace(/ /g,'');
+        hashElement['color']=$(this).find('.data-color').val();
+        hashElement['smin']=$(this).children('.data-smin').val();
+        hashElement['smax']=$(this).children('.data-smax').val();
+        hashElement['sstep']=$(this).children('.data-sstep').val();
+        hashData.push(hashElement);
+        break;
+      case FOOPLOT_TYPE_POINTS:
+        lines=$(this).find('.data-eq').val().split(/\n/);
+        points=[];
+        for(i in lines) {
+          coords=lines[i].split(',');
+          if(coords.length==2) points.push([coords[0],coords[1]]);
+        }
+        hashElement['type']=FOOPLOT_TYPE_POINTS;
+        hashElement['eq']=points;
+        hashElement['color']=$(this).find('.data-color').val();
+        hashData.push(hashElement);
+        break;
+    }
+  });
+  hashElement={'type':1000};
+  var w=[$('#options-xmin').val(),$('#options-xmax').val(),$('#options-ymin').val(),$('#options-ymax').val()];
+  if(w[0]!=-6.5||w[1]!=6.5||w[2]!=-4||w[3]!=4) hashElement['window']=w;
+  var g=[$('#options-xgrid').val(),$('#options-ygrid').val()];
+  if(g[0]!=''||g[1]!='') hashElement['grid']=g;
+  var s=[parseInt($('#fooplot-frame').css('width')),parseInt($('#fooplot-frame').css('height'))];
+  if(s[0]!=650||s[1]!=400) hashElement['size']=s;
+  if(!$('#options-showgrid').is(':checked')) hashElement['showgrid']=0;
+  if(!$('#options-showaxes').is(':checked')) hashElement['showaxes']=0;
+  if(!$('#options-showticks').is(':checked')) hashElement['showticks']=0;
+  if(!$('#options-showlabels').is(':checked')) hashElement['showlabels']=0;
+  if($('#options-bgcolor').val()!='#FFFFFF') hashElement['bgcolor']=$('#options-bgcolor').val();
+  if($('#options-axescolor').val()!='#000000') hashElement['axescolor']=$('#options-axescolor').val();
+  if($('#options-labelscolor').val()!='#000000') hashElement['labelscolor']=$('#options-labelscolor').val();
+  if($('#options-gridcolor').val()!='#D0D0D0') hashElement['gridcolor']=$('#options-gridcolor').val();
+  hashData.push(hashElement);
+  _ignoreHashChange=true;
+  window.location.hash='#'+Base64.encode(JSON.stringify(hashData));
+  plotState=hashData;
+}
+
+function readState() {
+  var newLi;
+  $('#plots').children('li').remove();
+  for(i in plotState) {
+    switch(parseInt(plotState[i]['type'])) {
+      case FOOPLOT_TYPE_FUNCTION:
+        newLi=$('<li class="plot ui-widget-content">'+$('#plot_template_'+FOOPLOT_TYPE_FUNCTION).html()+'</li>').data('type',FOOPLOT_TYPE_FUNCTION);
+        newLi.children('.data-eq').val(plotState[i]['eq']);
+        if(plotState[i]['color']==undefined) plotState[i]['color']='#000000';
+        newLi.find('.data-color').val(plotState[i]['color']).miniColors({change:changeColorTimeout});
+        newLi.find('.data-color').val(plotState[i]['color']).miniColors('value',plotState[i]['color']);
+        $('#plots').append(newLi);
+        break;
+      case FOOPLOT_TYPE_POLAR:
+        newLi=$('<li class="plot ui-widget-content">'+$('#plot_template_'+FOOPLOT_TYPE_POLAR).html()+'</li>').data('type',FOOPLOT_TYPE_POLAR);
+        newLi.children('.data-eq').val(plotState[i]['eq']);
+        if(plotState[i]['color']===undefined) plotState[i]['color']='#000000';
+        newLi.find('.data-color').val(plotState[i]['color']).miniColors({change:changeColorTimeout});
+        newLi.find('.data-color').val(plotState[i]['color']).miniColors('value',plotState[i]['color']);
+        if(plotState[i]['thetamin']===undefined) plotState[i]['thetamin']='0';
+        newLi.children('.data-thetamin').val(plotState[i]['thetamin']);
+        if(plotState[i]['thetamax']===undefined) plotState[i]['thetamax']='6';
+        newLi.children('.data-thetamax').val(plotState[i]['thetamax']);
+        if(plotState[i]['thetastep']===undefined) plotState[i]['thetastep']='.01';
+        newLi.children('.data-thetastep').val(plotState[i]['thetastep']);
+        $('#plots').append(newLi);
+        break;
+      case FOOPLOT_TYPE_PARAMETRIC:
+        newLi=$('<li class="plot ui-widget-content">'+$('#plot_template_'+FOOPLOT_TYPE_PARAMETRIC).html()+'</li>').data('type',FOOPLOT_TYPE_PARAMETRIC);
+        newLi.children('.data-eqx').val(plotState[i]['eqx']);
+        newLi.children('.data-eqy').val(plotState[i]['eqy']);
+        if(plotState[i]['color']===undefined) plotState[i]['color']='#000000';
+        newLi.find('.data-color').val(plotState[i]['color']).miniColors({change:changeColorTimeout});
+        newLi.find('.data-color').val(plotState[i]['color']).miniColors('value',plotState[i]['color']);
+        if(plotState[i]['smin']===undefined) plotState[i]['smin']='0';
+        newLi.children('.data-smin').val(plotState[i]['smin']);
+        if(plotState[i]['smax']===undefined) plotState[i]['smax']='2pi';
+        newLi.children('.data-smax').val(plotState[i]['smax']);
+        if(plotState[i]['sstep']===undefined) plotState[i]['sstep']='.01';
+        newLi.children('.data-sstep').val(plotState[i]['sstep']);
+        $('#plots').append(newLi);
+        break;
+      case FOOPLOT_TYPE_POINTS:
+        newLi=$('<li class="plot ui-widget-content">'+$('#plot_template_'+FOOPLOT_TYPE_POINTS).html()+'</li>').data('type',FOOPLOT_TYPE_POINTS);
+        pointstext='';
+        for(j in plotState[i]['eq']) {
+          pointstext+=plotState[i]['eq'][j].join()+'\n';
+        }
+        newLi.find('.data-eq').val(pointstext);
+        if(plotState[i]['color']===undefined) plotState[i]['color']='#000000';
+        newLi.find('.data-color').val(plotState[i]['color']).miniColors({change:changeColorTimeout});
+        newLi.find('.data-color').val(plotState[i]['color']).miniColors('value',plotState[i]['color']);
+        $('#plots').append(newLi);
+        break;
+      case 1000:
+        if(plotState[i]['size']===undefined) plotState[i]['size']=[650,400];
+        $('#fooplot-frame').css('width',plotState[i]['size'][0]+'px');
+        $('#fooplot-frame').css('height',plotState[i]['size'][1]+'px');
+        theplot.setSize();
+        if(plotState[i]['window']===undefined) plotState[i]['window']=[-6.5,6.5,-4,4];
+        $('#options-xmin').val(plotState[i]['window'][0]);
+        $('#options-xmax').val(plotState[i]['window'][1]);
+        $('#options-ymin').val(plotState[i]['window'][2]);
+        $('#options-ymax').val(plotState[i]['window'][3]);
+        if(plotState[i]['grid']===undefined) plotState[i]['grid']=['',''];
+        $('#options-xgrid').val(plotState[i]['grid'][0]);
+        $('#options-ygrid').val(plotState[i]['grid'][1]);
+        if(plotState[i]['showgrid']===undefined) plotState[i]['showgrid']=true;
+        $('#options-showgrid').attr('checked',plotState[i]['showgrid']?true:false);
+        if(plotState[i]['showaxes']===undefined) plotState[i]['showaxes']=true;
+        $('#options-showaxes').attr('checked',plotState[i]['showaxes']?true:false);
+        if(plotState[i]['showticks']===undefined) plotState[i]['showticks']=true;
+        $('#options-showticks').attr('checked',plotState[i]['showticks']?true:false);
+        if(plotState[i]['showlabels']===undefined) plotState[i]['showlabels']=true;
+        $('#options-showlabels').attr('checked',plotState[i]['showlabels']?true:false);
+        if(plotState[i]['bgcolor']===undefined) plotState[i]['bgcolor']='#FFFFFF';        
+        $('#options-bgcolor').val(plotState[i]['bgcolor']).miniColors('value',plotState[i]['bgcolor']);
+        if(plotState[i]['gridcolor']===undefined) plotState[i]['gridcolor']='#D0D0D0';
+        $('#options-gridcolor').val(plotState[i]['gridcolor']).miniColors('value',plotState[i]['gridcolor']);
+        if(plotState[i]['labelscolor']===undefined) plotState[i]['labelscolor']='#000000';
+        $('#options-labelscolor').val(plotState[i]['labelscolor']).miniColors('value',plotState[i]['labelscolor']);
+        if(plotState[i]['axescolor']===undefined) plotState[i]['axescolor']='#000000';        
+        $('#options-axescolor').val(plotState[i]['axescolor']).miniColors('value',plotState[i]['axescolor']);
+    }
+  }
+}
+
+function readStateFromHash() {
+  if(window.location.hash.indexOf('q=')==1) {
+    window.location.hash=Base64.encode('[{"type":"0","eq":"'+window.location.hash.substring(3)+'"}]');
+  }
+  if(window.location.hash.indexOf('%5B')==1) {
+    try {
+      plotState=JSON.parse(unescape(window.location.hash.substring(1)));
+    } catch(e) {
+      plotState=[];
+    }
+  } else {
+    try {
+      plotState=JSON.parse(Base64.decode(window.location.hash.substring(1)));
+    } catch(e) {
+      plotState=[];
+    }
+  }
+  readState();
+}
+</script>
+<div id="dialog"></div>
+<table cellspacing="0" cellpadding="0" style="padding-top:8px;">
+<tbody><tr><td valign="top">
+<div id="fooplot-frame" class="ui-widget-content ui-resizable" style="width:650px;height:400px;padding:15px;">
+  <div id="theplot" style="width: 100%; height: 100%; background: rgb(255, 255, 255); overflow: hidden; position: relative; user-select: none; cursor: move;"><div style="position: absolute; width: 100%; height: 100%; z-index: 100; background: rgb(255, 255, 255); opacity: 0;"></div><div style="position: absolute; z-index: 1; user-select: none; background: rgb(255, 255, 255); left: 0px; top: 0px;"><canvas width="650" height="400" style="backface-visibility: hidden; transform: translate3d(0px, 0px, 0px);"></canvas></div><div style="position: absolute; top: 100%; z-index: 200; opacity: 0.7; margin-top: -60px; margin-left: 10px; padding: 10px; height: 32px; border-radius: 5px; visibility: hidden;"><button class="fooplot-tool" title="Zoom In" style="width: 32px; background: url(&quot;data:image/gif;base64,R0lGODlhIAAgAPZRAP9/AP+AAP+AAf+AAv+BA/+BBP+DB/+GDf+GDv+HD/+KFv+LGP+MGv+OHf+PH/+QIv+UKf+UKv+YMv+aNv+bN/+gQf+iRf+jSP+kSf+nUP+oUv+pU/+pVP+qVv+sWf+wYf+xY/+2bv+5c/+8ev+9fP+/gP/Bg//Chv/Eiv/Gjf/HkP/Jk//Ll//Mmf/Onv/Qof/Ysv/bt//cuf/cuv/du//evf/evv/gwf/gwv/hw//jx//kyv/mzf/nz//s2v/v3//v4P/w4f/w4v/x4//y5v/06v/27f/48f/59P/69v/79//7+P/8+f/8+v/9+//+/f/+/v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAFIALAAAAAAgACAAAAf+gFJSAAEAhoeIiYqJglKFi5CRhwGDkpaSj5eak5oGDJuaFio6SFFGMycQoIoJLlGvsK9IIpmgFECxua85CqsJQ7lAP0S5MKsvuUuGFLofmxi6ygDMuUe9ly3Ry7pRHpo8uk3buimXBk2vNQnrCYYG7AmlUTmXD7AytYpLr0OXAfIyDAg0YCjAQAPyYmjKoW0atxOaVDSklguDJgnoYkmjCAtIO00lko2LVQGUAXCxePTwoUvDqgY1uIVzCSpACHm5hoyQ16TDKgAOQLDYUaQGig7tMOyL0oTmT0hKX/V8GgkDT1VUF0UtkbUqCUX5uiIKKxaRo7KJKAkihLaQoEAAOw==&quot;); position: relative; height: 32px; border: 0px; padding: 0px; margin-right: 15px; cursor: pointer;"></button><button class="fooplot-tool" title="Zoom Out" style="width: 32px; background: url(&quot;data:image/gif;base64,R0lGODlhIAAgAPZLAP9/AP+AAP+AAf+AAv+BBP+DB/+GDf+GDv+HD/+KFv+LF/+LGP+MGv+OHf+PH/+QIv+UKf+UKv+YMv+bN/+gQf+iRf+jSP+kSf+nUP+oUv+pU/+pVP+qVv+rWP+sWf+wYf+xY/+zZ/+2bv+5c/+8ev+9fP+/gP/Bg//Chv/Eiv/Gjf/HkP/Jk//Ll//Mmf/Onv/Qof/Ysv/bt//cuv/evf/evv/gwf/gwv/hw//jx//kyv/mzf/v4P/w4f/w4v/x4//06v/27f/48f/59P/69v/79//7+P/8+v/9+//+/f/+/v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAEwALAAAAAAgACAAAAfXgExMAAEAhoeIiYqJgkyFi5CRhwGDkpaSj5eak5oFDJuaFSw5Q0tBMygQoIoIL0uvsK9DI5mgEzyxua84CqsIP7rBMaswwcYfmxfGxkILmi7Lxh2aO9HBKpcFR7khCt7exbE2lw+604gtuT+XAaWx54fpsTKaOda6KJoq97kXmhL8YPFAsKlEwCUUQBWoxi/DqgY1+B1xCCqACHfqSLg7wmEVgAcfWugAUiMFB4IXjLya6FFSypUdW0K6sFGVzEUvTdyMdKHEzlW1fipyJDQRJUFFDRUSFAgAOw==&quot;); position: relative; height: 32px; border: 0px; padding: 0px; margin-right: 15px; cursor: pointer;"></button><div style="display: inline; width: 32px; height: 1px; border: 0px; padding: 0px; margin-right: 15px;"></div><button class="fooplot-tool" title="Move" style="width: 32px; background: url(&quot;data:image/gif;base64,R0lGODlhIAAgAPY/AP9/AP+AAP+AAf+AAv+BBP+CBf+FDP+GDv+HD/+IEf+IEv+JE/+KFv+MGv+NG/+OHf+PH/+PIP+QIf+QIv+TKP+UKf+bOP+dPP+fQP+jSP+oUv+pVP+rWP+uXf+xY/+1a/+3cP+6dv+7d/+7eP+8ef+9e/++ff/Dh//DiP/Hj//Ikv/Klf/Ll//LmP/NnP/Pn//du//fv//hw//ixv/kyv/lzP/mzv/o0f/o0v/p1P/t2//u3v/v4P/w4f/+/v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAEAALAAAAAAgACAAAAf0gEBAAAEAhoeIiYqHhYJAhYuRkoyDk4mQloaYlhw5D5mEoAAjPz87E6KWBC6lpaepkQgwra09qLCJDhYWIKUiGhsXuJEZpRbDk8U/x8jExs0TwonKzIgUm4sRPBuK1IogLJMPOz8a3c+JvSiRDjq+u/C8pR7xuymlJIoBOLT9/v+lPijqALDgPxmLTPjKwLAhqR8gGjZsUYoGgkisMJxb9u2HjQWRAhCAoXEaOkQgcICchCDCxmqHMjBo5q3Zopo2TXLMaSgDCHClWIwYUSEngxv+VGAbpsAGrXU8DSGYgU/U0kUIYoCIqg/WI66UBIXi2QhIIAA7&quot;); position: relative; height: 32px; border: 0px; padding: 0px; margin-right: 15px; cursor: pointer; opacity: 0.7;"></button><button class="fooplot-tool" title="Zoom Box" style="width: 32px; background: url(&quot;data:image/gif;base64,R0lGODlhIAAgAPYAAP9/AP+AAP+AAf+AAv+BA/+BBP+CBf+DB/+GDf+GDv+HD/+KFv+LGP+MGv+OHf+PH/+QIv+TJ/+UKf+UKv+YMv+bN/+gQf+iRf+jSP+kSf+nT/+nUP+oUv+pU/+pVP+qVv+sWf+uXv+wYf+xY/+1a/+2bv+3b/+5c/+8ev+9fP+/gP/Bg//Chv/Eiv/Gjf/Hj//HkP/Jk//JlP/Ll//Mmf/Onv/Qof/Xr//Ysv/bt//cuv/evf/evv/gwf/gwv/hw//jx//kyv/mzf/r1//v4P/w4f/w4v/x4//06v/27f/48f/59P/69v/79//7+P/8+v/9+//9/P/+/f/+/v///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAFUALAAAAAAgACAAAAf+gFVVAAEAhoeIiYqHhYJVhYuRkoyDk5aTkJeajJoHDZuaFzFAS1RJOiwSoIoKNVSvsK9LJ5mgFUSxua8/C6sKR09LT03CS07Gx1Q4qzZUGoaQAdKHL1Qimxmvz4qZ1Uq9lzTahgfl5geG1VQfmkLjADe5JumvL5cHT+/xsfMA6j+XIMDatg9WP3VELgUo5cxQwVcHX+nQ5OPdjCEYMYagR2WFJnXbJIHUROGdSCpEFGxKQYVEhJcwY0ZoZgHUAXe6cnJY5WBHTl1Pdq4ywTAXERQMg64C8GDEjCBIdrT4oDKDk1dP2C2VZBWr0K2Lur5SBXYRhqsqykrCkELtqloObhU9ipsogCO60AAICgQAOw==&quot;); position: relative; height: 32px; border: 0px; padding: 0px; margin-right: 15px; cursor: pointer; opacity: 1;"></button><button class="fooplot-tool" title="Trace" style="width: 32px; background: url(&quot;data:image/gif;base64,R0lGODlhIAAgAMYAAP9/AP+AAP+AAf+AAv+BBP+CBf+FDP+GDv+HD/+IEf+IEv+JE/+KFv+MGv+NG/+OHf+PH/+PIP+QIf+QIv+TKP+UKf+bOP+dPP+fQP+jSP+oUv+pVP+rWP+uXf+xY/+1a/+3cP+6dv+7d/+7eP+8ef+9e/++ff/Dh//DiP/Hj//Ikv/Klf/Ll//LmP/NnP/Pn//du//fv//hw//ixv/kyv/lzP/mzv/o0f/o0v/p1P/t2//u3v/v4P/w4f/+/v////9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/ACH5BAEAAD4ALAAAAAAgACAAAAdfgD4+AAEAhoeIiYqHhYI+hYuRkoyDk5aTkJeajJudnp+goaKjpKWmp6iJP6urqD+qr6SxirOgtbSsnre4rZu7vL+jrL2ph8GmxMUAw8rNzs/Q0YqZ0qePxQGOhKaNPoEAOw==&quot;); position: relative; height: 32px; border: 0px; padding: 0px; margin-right: 15px; cursor: pointer; opacity: 1;"></button><button class="fooplot-tool" title="Find Intersections and Roots" style="width: 32px; background: url(&quot;data:image/gif;base64,R0lGODlhIAAgAMYAAP9/AP+AAP+AAf+AAv+BBP+CBf+FDP+GDv+HD/+IEf+IEv+JE/+KFv+MGv+NG/+OHf+PH/+PIP+QIf+QIv+TKP+UKf+bOP+dPP+fQP+jSP+oUv+pVP+rWP+uXf+xY/+1a/+3cP+6dv+7d/+7eP+8ef+9e/++ff/Dh//DiP/Hj//Ikv/Klf/Ll//LmP/NnP/Pn//du//fv//hw//ixv/kyv/lzP/mzv/o0f/o0v/p1P/t2//u3v/v4P/w4f/+/v////9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/AP9/ACH5BAEAAD4ALAAAAAAgACAAAAdygD4+AAEAhoeIiYqHhYI+hYuRkoyDk5aTkJeajJuRP52gn6CaP6Kjlqank6mqi6ytiq+opaWeo6yyspK5ibq7trS+tp7BsLHFxojBwqe0yb2HzJ24z7ywvrXNl9mb0tHe3rfP44uZ5OeLj+gBjoTPjT6BADs=&quot;); position: relative; height: 32px; border: 0px; padding: 0px; margin-right: 15px; cursor: pointer; opacity: 1;"></button></div><div style="position: absolute; visibility: hidden; width: 1px; height: 1px; top: -1px; left: -1px; border: 1px solid rgb(255, 128, 0); background: rgb(255, 160, 0); opacity: 0.5; z-index: 50;"></div><div style="position: absolute; visibility: hidden; width: 5px; height: 5px; top: -1px; left: -1px; border: 1px solid rgb(255, 255, 255); background: rgb(255, 128, 0); z-index: 50;"></div><div style="position: absolute; visibility: hidden; height: 20px; padding: 4px; top: -1px; left: -1px; border: 1px solid rgb(160, 160, 160); background: rgb(255, 255, 255); box-shadow: rgb(128, 128, 128) 5px 5px 5px; z-index: 50;"></div><div style="position: absolute; visibility: hidden; width: 5px; height: 5px; top: -1px; left: -1px; border: 1px solid rgb(255, 255, 255); background: rgb(255, 128, 0); z-index: 50;"></div><div style="position: absolute; visibility: hidden; height: 20px; padding: 4px; top: -1px; left: -1px; border: 1px solid rgb(160, 160, 160); background: rgb(255, 255, 255); box-shadow: rgb(128, 128, 128) 5px 5px 5px; z-index: 50;"></div></div>
+<div class="ui-resizable-handle ui-resizable-e" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 1000;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 1000;"></div></div>
+
+<div id="dialog-permalink" style="display:none;"></div>
+
+
+<div class="ui-widget-content" style="background:#F4F4F4;width:650px;padding:15px;margin-top:15px;">
+<div align="center">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-1967794657116291";
+/* fooplot.bottom */
+google_ad_slot = "5490932820";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript" src="./FooPlot _ Online graphing calculator and function plotter_files/f(6).txt">
+</script><ins id="aswift_1_expand" style="display:inline-table;border:none;margin:0;padding:0;position:relative;visibility:visible;background-color:transparent;width:468px;height:60px;" data-ad-slot="5490932820" tabindex="0" title="Advertisement" aria-label="Advertisement" data-ad-status="filled"><ins id="aswift_1_anchor" style="display:block;border:none;margin:0;padding:0;position:relative;visibility:visible;background-color:transparent;width:468px;height:60px;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:468px;height:60px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="468" height="60" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./FooPlot _ Online graphing calculator and function plotter_files/ads(1).html" data-google-container-id="a!2" data-google-query-id="CIWP6LvPgPgCFX9oFQgdguQJ_g" data-load-complete="true"></iframe></ins></ins>
+</div>
+</div>
+
+
+<div class="ui-widget-content" style="width:650px;padding:15px;margin-top:15px;">
+    <table cellspacing="4" cellpadding="0" style="table-layout:fixed;width:100%;">
+    <tbody><tr>
+      <td><div class="ui-widget-header noselect" style="padding:5px;margin-bottom:5px;">Window</div></td>
+      <td style="width:180px;"><div class="ui-widget-header noselect" style="padding:5px;margin-bottom:5px;">Display</div></td>
+      <td style="width:180px;"><div class="ui-widget-header noselect" style="padding:5px;margin-bottom:5px;">Grid Spacing</div></td>
+    </tr>
+    <tr><td valign="top">
+    <table><tbody><tr>
+    <td><input id="options-xmin" style="width:60px;" type="text" class="param" value="-6.5" onkeypress="checkEnter();" onchange="doPlot();writeState();"></td>
+    <td><span class="param">&lt; x &lt;</span></td>
+    <td><input id="options-xmax" style="width:60px;" type="text" class="param" value="6.5" onkeypress="checkEnter();" onchange="doPlot();writeState();"></td>
+    </tr><tr><td colspan="3"><div style="text-align:center;margin-right:auto;margin-left:auto;line-height:0.1em;">
+    <button class="button-makewindowsquare ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary" style="cursor: pointer; width: 32px; padding-top: 3px; padding-bottom: 3px;" title="Make window proportions square" onclick="javascript:makeWindowSquare();" role="button" aria-disabled="false"><span class="ui-button-icon-primary ui-icon ui-icon-arrowthick-1-s"></span><span class="ui-button-text"></span></button></div>
+    </td></tr><tr>
+    <td><input id="options-ymin" style="width:60px;" type="text" class="param" value="-4" onkeypress="checkEnter();" onchange="doPlot();writeState();"></td>
+    <td><span class="param">&lt; y &lt;</span></td>
+    <td><input id="options-ymax" style="width:60px;" type="text" class="param" value="4" onkeypress="checkEnter();" onchange="doPlot();writeState();"></td>
+    </tr></tbody></table>
+    </td><td valign="top">
+    <table>
+    <tbody><tr>
+    <td><input class="colorpicker miniColors" id="options-bgcolor" type="hidden" value="#FFFFFF" maxlength="7" autocomplete="off"><a class="miniColors-trigger" style="background-color: #FFFFFF" href="http://www.fooplot.com/#"></a></td>
+    <td></td>
+    <td>Background</td>
+    </tr>
+    <tr>
+    <td><input id="options-gridcolor" class="colorpicker miniColors" type="hidden" value="#D0D0D0" maxlength="7" autocomplete="off"><a class="miniColors-trigger" style="background-color: #D0D0D0" href="http://www.fooplot.com/#"></a></td>
+    <td><input id="options-showgrid" type="checkbox" style="width:12px;height:12px;" checked="checked" value="true" onclick="doPlot();writeState();"></td>
+    <td>Grid</td>
+    </tr>
+    <tr>
+    <td><input id="options-axescolor" class="colorpicker miniColors" type="hidden" value="#000000" maxlength="7" autocomplete="off"><a class="miniColors-trigger" style="background-color: #000000" href="http://www.fooplot.com/#"></a></td>
+    <td><input id="options-showaxes" type="checkbox" style="width:12px;height:12px;" checked="checked" value="true" onclick="doPlot();writeState();"></td>
+    <td>Axes</td>
+    </tr>
+    <tr>
+    <td></td>
+    <td><input id="options-showticks" type="checkbox" style="width:12px;height:12px;" checked="checked" value="true" onclick="doPlot();writeState();"></td>
+    <td>Tick Marks</td>
+    </tr>
+    <tr>
+    <td><input id="options-labelscolor" class="colorpicker miniColors" type="hidden" value="#000000" maxlength="7" autocomplete="off"><a class="miniColors-trigger" style="background-color: #000000" href="http://www.fooplot.com/#"></a></td>
+    <td><input id="options-showlabels" type="checkbox" style="width:12px;height:12px;" checked="checked" value="true" onclick="doPlot();writeState();"></td>
+    <td>Numbers</td>
+    </tr>
+    </tbody></table>
+    </td><td valign="top">
+    <table><tbody><tr>
+    <td>x:</td>
+    <td><input id="options-xgrid" style="width:40px;" type="text" class="param" value="" onkeypress="checkEnter();" onchange="doPlot();writeState();"></td>
+    <td>&nbsp;&nbsp;</td>
+    <td>y:</td>
+    <td><input id="options-ygrid" style="width:40px;" type="text" class="param" value="" onkeypress="checkEnter();" onchange="doPlot();writeState();"></td>
+    </tr></tbody></table>
+    </td></tr>
+    <tr><td colspan="2">
+    <div class="ui-widget-header noselect" style="padding:5px;margin-bottom:5px;margin-top:10px;">Take your graph with you ...</div>
+    </td><td>
+    <div class="ui-widget-header noselect" style="padding:5px;margin-bottom:5px;margin-top:10px;">Share</div>
+    </td></tr><tr><td colspan="2" valign="top">
+<form id="download-form" action="http://www.fooplot.com/save.php" method="POST"><input id="download-svg" type="hidden" name="svg" value="">
+    <table width="100%"><tbody><tr>
+    <td><b>Export as...</b></td>
+    <td><select name="format" class="selectmenu" style="width: 280px; display: none;" aria-disabled="false">
+<option value="svg">Scalable Vector Graphics (.svg)</option>
+<option value="eps">Encapsulated PostScript (.eps)</option>
+<option value="pdf">Portable Document Format (.pdf)</option>
+<option value="png">Portable Network Graphics (.png)</option>
+</select><span><a class="ui-selectmenu ui-widget ui-state-default ui-corner-all ui-selectmenu-dropdown" id="ui-selectmenu-b704573c-button" role="button" href="http://www.fooplot.com/#nogo" tabindex="0" aria-haspopup="true" aria-owns="ui-selectmenu-b704573c-menu" aria-disabled="false" style="width: 280px;"><span class="ui-selectmenu-status">Scalable Vector Graphics (.svg)</span><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span></a></span></td>
+    <td><div style="position:relative"><button class="button ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="$(&#39;#download-svg&#39;).val(theplot.getSVG());$(&#39;#download-form&#39;).submit();" role="button" aria-disabled="false" style="font-size: 11px; height: 27px;"><span class="ui-button-text">Download</span></button></div></td>
+    </tr>
+    </tbody></table>
+</form>
+    </td><td>
+    <table><tbody><tr><td valign="top">Click to share this graph on your favourite social network:<br>
+<img style="cursor:hand;cursor:pointer;padding-top:15px;padding-right:5px;-webkit-transition:-webkit-transform 0.5s ease,opacity 0.5s ease;" onmouseover="this.style.webkitTransform=&#39;scale(1.1) rotate(5deg)&#39;;this.style.opacity=0.7;" onmouseout="this.style.webkitTransform=&#39;&#39;;this.style.opacity=&#39;&#39;;" src="./FooPlot _ Online graphing calculator and function plotter_files/icon_facebook_32.png" width="32" height="32" onclick="window.open(&#39;http://facebook.com/share.php?u=&#39;+escape(window.location.href),&#39;_blank&#39;);">
+<img style="cursor:hand;cursor:pointer;padding-top:15px;padding-right:5px;-webkit-transition:-webkit-transform 0.5s ease,opacity 0.5s ease;" onmouseover="this.style.webkitTransform=&#39;scale(1.1) rotate(5deg)&#39;;this.style.opacity=0.7;" onmouseout="this.style.webkitTransform=&#39;&#39;;this.style.opacity=&#39;&#39;;" src="./FooPlot _ Online graphing calculator and function plotter_files/icon_twitter_32.png" width="32" height="32" onclick="window.open(&#39;http://twitter.com/share?url=&#39;+escape(window.location.href)+&#39;&amp;text=Fooplot&#39;,&#39;_blank&#39;);">
+<img style="cursor:hand;cursor:pointer;padding-top:15px;padding-right:5px;-webkit-transition:-webkit-transform 0.5s ease,opacity 0.5s ease;" onmouseover="this.style.webkitTransform=&#39;scale(1.1) rotate(5deg)&#39;;this.style.opacity=0.7;" onmouseout="this.style.webkitTransform=&#39;&#39;;this.style.opacity=&#39;&#39;;" src="./FooPlot _ Online graphing calculator and function plotter_files/icon_sina_32.png" width="32" height="32" onclick="window.open(&#39;http://service.weibo.com/share/share.php?url=&#39;+escape(window.location.href)+&#39;&amp;appkey=&amp;title=Fooplot&amp;pic=&amp;ralateUid=&amp;language=zh_cn&#39;,&#39;_blank&#39;);">
+</td></tr></tbody></table>
+    </td></tr>
+  </tbody></table>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+
+</td>
+
+<td valign="top" style="width:200px;padding-left:15px;">
+<ul id="plots" class="sortable ui-sortable" style="list-style-type:none;padding:0px;margin:0px;">
+<li class="plot ui-widget-content">
+  <div style="float:right;cursor:pointer;cursor:hand;" onclick="$(this).parent().remove();doPlot();writeState();"><span class="ui-icon ui-icon-close"></span></div>
+  <div style="float:left;margin-right:5px;"><input type="hidden" class="data-color miniColors" value="#000000" maxlength="7" autocomplete="off"><a class="miniColors-trigger" style="background-color: #000000" href="http://www.fooplot.com/#"></a></div>
+  <div class="plottitle">Function y(x)</div>
+ <!-- <span class="equation">y = </span> -->
+  <input style="width:205px;" class="data-eq equation" type="text" value="x^2" onkeypress="checkEnter();" onchange="doPlot();writeState();">
+</li><li class="plot ui-widget-content" style="">
+  <div style="float:right;cursor:pointer;cursor:hand;" onclick="$(this).parent().remove();doPlot();writeState();"><span class="ui-icon ui-icon-close"></span></div>
+  <div style="float:left;margin-right:5px;"><input type="hidden" class="data-color miniColors" value="#000000" maxlength="7" autocomplete="off"><a class="miniColors-trigger" style="background-color: #000000" href="http://www.fooplot.com/#"></a></div>
+  <div class="plottitle">Function y(x)</div>
+ <!-- <span class="equation">y = </span> -->
+  <input style="width:205px;" class="data-eq equation" type="text" value="x^2" onkeypress="checkEnter();" onchange="doPlot();writeState();">
+</li></ul>
+<ul id="plots_add" style="list-style-type:none;padding:0px;margin:0px;">
+<li class="plot ui-widget-content ui-state-highlight" style="cursor:default;">
+<table><tbody><tr><td><select id="plots_add_type" class="selectmenu" style="width: 185px; display: none;" aria-disabled="false">
+<option value="0">Function</option>
+<option value="1">Polar</option>
+<option value="2">Parametric</option>
+<option value="3">Points</option>
+</select><span><a class="ui-selectmenu ui-widget ui-state-default ui-corner-all ui-selectmenu-dropdown" id="plots_add_type-button" role="button" href="http://www.fooplot.com/#nogo" tabindex="0" aria-haspopup="true" aria-owns="plots_add_type-menu" aria-disabled="false" style="width: 185px;"><span class="ui-selectmenu-status">Function</span><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span></a></span></td></tr><tr><td><button class="button ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="$(&#39;&lt;li class=&quot;plot ui-widget-content&quot;&gt;&#39;+$(&#39;#plot_template_&#39;+$(&#39;#plots_add_type&#39;).val()).html()+&#39;&lt;/li&gt;&#39;).data($(&#39;#plot_template_&#39;+$(&#39;#plots_add_type&#39;).val()).data()).hide().appendTo(&#39;#plots&#39;).slideDown().find(&#39;.data-color&#39;).miniColors({change:changeColorTimeout});doPlot();writeState();" role="button" aria-disabled="false" style="font-size: 11px; height: 27px;"><span class="ui-button-text">Add</span></button></td></tr></tbody></table>
+</li>
+</ul>
+
+<div style="padding:10px;margin-top:20px;width:220px;">
+<div style="padding-left:20px;padding-bottom:10px;"><iframe src="./FooPlot _ Online graphing calculator and function plotter_files/like.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:170px; height:21px;" allowtransparency="true"></iframe></div>
+<div style="padding-left:20px;padding-bottom;10px;"><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" style="position: static; visibility: visible; width: 73px; height: 20px;" title="Twitter Tweet Button" src="./FooPlot _ Online graphing calculator and function plotter_files/tweet_button.bbd13993eb53d3a11ac08f5e8cf9d6a4.en.html" data-url="http://fooplot.com/"></iframe><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+</div>
+
+<div id="plot_template_0" style="display:none;" data-type="0">
+  <div style="float:right;cursor:pointer;cursor:hand;" onclick="$(this).parent().remove();doPlot();writeState();"><span class="ui-icon ui-icon-close"></span></div>
+  <div style="float:left;margin-right:5px;"><input type="hidden" class="data-color" value="#000000"></div>
+  <div class="plottitle">Function y(x)</div>
+ <!-- <span class="equation">y = </span> -->
+  <input style="width:205px;" class="data-eq equation" type="text" value="x^2" onkeypress="checkEnter();" onchange="doPlot();writeState();">
+</div>
+
+<div id="plot_template_1" style="display:none;" data-type="1">
+  <div style="float:right;cursor:pointer;cursor:hand;" onclick="$(this).parent().remove();doPlot();writeState();"><span class="ui-icon ui-icon-close"></span></div>
+  <div style="float:left;margin-right:5px;"><input type="hidden" class="data-color" value="#0080cc"></div>
+  <div class="plottitle">Polar r(theta)</div>
+  <!-- <span class="equation">r = </span> -->
+  <input style="width:205px;" type="text" class="data-eq equation" value="theta/2" onkeypress="checkEnter();" onchange="doPlot();writeState();"><br>
+  <input style="width:25px;" type="text" class="data-thetamin param" value="0" onkeypress="checkEnter();" onchange="doPlot();writeState();">
+  <span class="param">&lt; θ &lt; </span>
+  <input style="width:25px;" type="text" class="data-thetamax param" value="2pi" onkeypress="checkEnter();" onchange="doPlot();writeState();">
+  &nbsp;step = 
+  <input style="width:25px;" type="text" class="data-thetastep param" value=".01" onkeypress="checkEnter();" onchange="doPlot();writeState();">
+</div>
+
+<div id="plot_template_2" style="display:none;" data-type="2">
+  <div style="float:right;cursor:pointer;cursor:hand;" onclick="$(this).parent().remove();doPlot();writeState();"><span class="ui-icon ui-icon-close"></span></div>
+  <div style="float:left;margin-right:5px;"><input type="hidden" class="data-color" value="#ff0000"></div>
+  <div class="plottitle">Parametric</div>
+  <span class="equation">x = </span>
+  <input style="width:178px;" type="text" class="data-eqx equation" value="cos(5s)" onkeypress="checkEnter();" onchange="doPlot();writeState();"><br>
+  <span class="equation">y = </span>
+  <input style="width:178px;" type="text" class="data-eqy equation" value="sin(3s)" onkeypress="checkEnter();" onchange="doPlot();writeState();"><br>
+  <input style="width:25px;" type="text" class="data-smin param" value="0" onkeypress="checkEnter();" onchange="doPlot();writeState();">
+  <span class="param">&lt; s &lt; </span>
+  <input style="width:25px;" type="text" class="data-smax param" value="2pi" onkeypress="checkEnter();" onchange="doPlot();writeState();">
+  &nbsp;step = 
+  <input style="width:25px;" type="text" class="data-sstep param" value=".01" onkeypress="checkEnter();" onchange="doPlot();writeState();">
+</div>
+
+<div id="plot_template_3" style="display:none;" data-type="3">
+  <div style="float:right;cursor:pointer;cursor:hand;" onclick="$(this).parent().remove();doPlot();writeState();"><span class="ui-icon ui-icon-close"></span></div>
+  <div style="float:left;margin-right:5px;"><input type="hidden" class="data-color" value="#000000"></div>
+  <div class="plottitle">Points</div>
+  <table cellspacing="0" cellpadding="0" style="width:190px;"><tbody><tr><td><textarea maxlength="1024" style="width:180px;height:80px;border:1px solid #c0c0c0;margin-top:4px;" class="data-eq param" onkeyup="changeColorTimeout();" onchange="doPlot();writeState();">0,0
+1,1
+2,2
+3,1
+4,2.5
+</textarea></td></tr></tbody></table>
+</div>
+
+</td></tr><tr><td colspan="2">
+<div style="border-bottom:3px solid #c0c0c0;padding-bottom:15px;margin-bottom:15px;"></div>
+</td></tr></tbody></table>
+<div style="padding-top:5px;color:#909090">
+<table cellspacing="0" cellpadding="0" style="width:930px"><tbody><tr>
+<td><div align="left">Copyright ©2007-2022 <a href="http://dheera.net/">Dheera Venkatraman</a>.</div></td>
+<td><div align="right">
+<a href="http://www.fooplot.com/?lang=en" onclick="switchLanguage(&#39;en&#39;);return false;">English</a>
+·
+<a href="http://www.fooplot.com/?lang=de" onclick="switchLanguage(&#39;de&#39;);return false;">Deutsch</a>
+·
+<a href="http://www.fooplot.com/?lang=es" onclick="switchLanguage(&#39;es&#39;);return false;">Español</a>
+·
+<a href="http://www.fooplot.com/?lang=zh_hans" onclick="switchLanguage(&#39;zh_hans&#39;);return false;">简体中文</a>
+·
+<a href="http://www.fooplot.com/?lang=zh_hant" onclick="switchLanguage(&#39;zh_hant&#39;);return false;">繁體中文</a>
+<script type="text/javascript">
+<!--
+function switchLanguage(lang) {
+  $.ajax({
+    url:'lang-switch?lang='+lang,
+    success:function() {
+      window.location.reload();
+    }
+  });
+}
+// -->
+</script>
+</div></td>
+</tr></tbody></table>
+<br><br>
+</div>
+
+<!-- <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffooplot.com%2F&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=verdana&amp;height=80&amp;appId=331714003556098" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="true"></iframe> -->
+
+<div class="ui-selectmenu-menu" style="z-index: 1; top: 795.359px; left: 125.859px;"><ul class="ui-widget ui-widget-content ui-selectmenu-menu-dropdown ui-corner-bottom" aria-hidden="true" role="listbox" aria-labelledby="ui-selectmenu-b704573c-button" id="ui-selectmenu-b704573c-menu" aria-disabled="false" aria-activedescendant="ui-selectmenu-item-587" style="width: 280px; height: auto;"><li role="presentation" class="ui-selectmenu-item-selected ui-selectmenu-item-focus"><a href="http://www.fooplot.com/#nogo" tabindex="-1" role="option" aria-selected="true" id="ui-selectmenu-item-587">Scalable Vector Graphics (.svg)</a></li><li role="presentation"><a href="http://www.fooplot.com/#nogo" tabindex="-1" role="option" aria-selected="false">Encapsulated PostScript (.eps)</a></li><li role="presentation"><a href="http://www.fooplot.com/#nogo" tabindex="-1" role="option" aria-selected="false">Portable Document Format (.pdf)</a></li><li role="presentation" class="ui-corner-bottom"><a href="http://www.fooplot.com/#nogo" tabindex="-1" role="option" aria-selected="false">Portable Network Graphics (.png)</a></li></ul></div><div class="ui-selectmenu-menu" style="z-index: 1; top: 250.5px; left: 739px;"><ul class="ui-widget ui-widget-content ui-selectmenu-menu-dropdown ui-corner-bottom" aria-hidden="true" role="listbox" aria-labelledby="plots_add_type-button" id="plots_add_type-menu" aria-disabled="false" aria-activedescendant="ui-selectmenu-item-799" style="width: 185px; height: auto;"><li role="presentation" class="ui-selectmenu-item-selected ui-selectmenu-item-focus"><a href="http://www.fooplot.com/#nogo" tabindex="-1" role="option" aria-selected="true" id="ui-selectmenu-item-799">Function</a></li><li role="presentation"><a href="http://www.fooplot.com/#nogo" tabindex="-1" role="option" aria-selected="false">Polar</a></li><li role="presentation"><a href="http://www.fooplot.com/#nogo" tabindex="-1" role="option" aria-selected="false">Parametric</a></li><li role="presentation" class="ui-corner-bottom"><a href="http://www.fooplot.com/#nogo" tabindex="-1" role="option" aria-selected="false">Points</a></li></ul></div><iframe scrolling="no" frameborder="0" allowtransparency="true" src="./FooPlot _ Online graphing calculator and function plotter_files/widget_iframe.bbd13993eb53d3a11ac08f5e8cf9d6a4.html" title="Twitter settings iframe" style="display: none;"></iframe><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="./FooPlot _ Online graphing calculator and function plotter_files/saved_resource.html"></iframe><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><ins id="aswift_2_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_2_anchor" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"><iframe id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./FooPlot _ Online graphing calculator and function plotter_files/ads(2).html" data-google-container-id="a!3" data-load-complete="true"></iframe></ins></ins></ins><iframe src="./FooPlot _ Online graphing calculator and function plotter_files/aframe.html" width="0" height="0" style="display: none;"></iframe><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" data-anchor-status="displayed" data-anchor-shown="true" style="display: block; width: 100% !important; height: 95px !important; bottom: 0px; clear: none !important; float: none !important; left: 0px; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1; overflow: visible !important; padding: 0px !important; position: fixed; right: auto !important; top: auto !important; vertical-align: baseline !important; visibility: visible !important; z-index: 2147483647; background: rgb(250, 250, 250) !important;" data-ad-status="filled"><ins class="ee" style="inset: auto !important; clear: none !important; display: block !important; float: none !important; height: 5px !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; position: relative !important; vertical-align: baseline !important; visibility: visible !important; width: auto !important; z-index: 1 !important; background-color: rgb(250, 250, 250) !important; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 5px -1px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px !important;"><span style="display: block !important; width: 80px !important; height: 45px !important; bottom: 0px !important; left: 0% !important; pointer-events: none !important;"><svg style="margin: 0px !important; position: absolute !important; bottom: 0px !important; left: 0% !important; display: block !important; width: 80px !important; height: 30px !important; transform: none !important; pointer-events: initial !important;"><defs><filter id="dropShadowTop" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><fecomponenttransfer in="SourceAlpha" result="TransferredAlpha"><fefuncr type="discrete" tableValues="0.5"></fefuncr><fefuncg type="discrete" tableValues="0.5"></fefuncg><fefuncb type="discrete" tableValues="0.5"></fefuncb></fecomponenttransfer><fegaussianblur in="TransferredAlpha" stdDeviation="2"></fegaussianblur><feoffset dx="0" dy="0" result="offsetblur"></feoffset><femerge><femergenode></femergenode><femergenode in="SourceGraphic"></femergenode></femerge></filter></defs><path d="M0,26 L0,6 A6,6 0 0,1 6,1 L50,1 A6,6 0 0,1 56,6 L56,20 A6,6 0 0,0 62,26 Z" stroke="#FAFAFA" stroke-width="1" fill="#FAFAFA" style="filter: url(&quot;#dropShadowTop&quot;);"></path><rect x="0" y="25" width="80" height="5" style="fill: rgb(250, 250, 250);"></rect><g class="down" stroke="#616161" stroke-width="2px" stroke-linecap="square"><line x1="22" y1="12" x2="28" y2="18"></line><line x1="28" y1="18" x2="34" y2="12"></line></g></svg></span></ins><ins id="aswift_3_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none !important; height: 90px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: inline-table !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;"><ins id="aswift_3_anchor" style="border: none !important; height: 90px !important; width: 100% !important; margin: 0px !important; padding: 0px !important; position: relative !important; visibility: visible !important; background-color: transparent !important; display: block !important; inset: auto !important; clear: none !important; float: none !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; vertical-align: baseline !important; z-index: auto !important;"><iframe id="aswift_3" name="aswift_3" style="width: 728px !important; height: 90px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="728" height="90" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./FooPlot _ Online graphing calculator and function plotter_files/zrt_lookup.html" data-google-container-id="a!4" data-google-query-id="CNjuhb7PgPgCFYxTFQgdCFsEZA" data-load-complete="true"></iframe></ins></ins></ins></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration><iframe id="google_esf" name="google_esf" src="./FooPlot _ Online graphing calculator and function plotter_files/zrt_lookup(1).html" style="display: none;"></iframe></html>
