@@ -1,0 +1,24 @@
+<html>
+    <title>
+        Loan Prediction App using Flask
+    </title>
+    
+    <!--['Credit_History', 'ApplicantIncome', 'LoanAmount', 'CoapplicantIncome']-->
+    <form action = "{{url_for('predict')}}" method = 'post'>
+        <h3>Loan Prediction App using Flask </h3>
+        <div>
+        <label>Credit History : </label><input type = 'text' name = 'Credit_History' /><br/><br/>
+        <label>Applicant Income : </label><input type = 'text' name = 'ApplicantIncome' /><br/><br/>
+        <label>Loan Amount : </label><input type = 'text' name = 'LoanAmount' /><br/><br/>
+        <label>Coapplicant Income : </label><input type = 'text' name = 'CoapplicantIncome' /><br/><br/>
+        </div>
+
+        <button type = "submit">Predict</button>
+    </form>
+    
+    {{prediction}}
+    
+    
+    
+    
+</html>
